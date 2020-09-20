@@ -4,7 +4,9 @@ nav ul{
 	background: #444;
 	padding: 0;
 
-	text-align: center;
+    text-align: center;
+    
+ 
 }
 
 nav a{
@@ -15,7 +17,8 @@ nav a{
 }
 
 nav li{
-	width: 15%;
+    width: 10%;
+    transition: width 0.25s linear;
 	/*border-right: 3px solid red; */
 	line-height: 50px;
 	font-size: 140%;
@@ -24,7 +27,8 @@ nav li{
 }
 
 nav li:hover{
-	background-color:#676b66;
+    background-color:#676b66;
+    width: 15%;
 }
 
 nav li ul{
@@ -50,5 +54,6 @@ nav li ul li{
 }
 
 nav li ul li:hover{
-	background-color:#1eb10c;
+    background-color:#1eb10c;
+    width: 100%;
 }
