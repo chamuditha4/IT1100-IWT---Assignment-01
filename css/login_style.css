@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
     input[type=text] {
+        font-family: 'Ranchers', cursive;
         background-color: #757575;
         color: white;
     }
     input[type=email] {
+        font-family: 'Ranchers', cursive;
         background-color: #757575;
         color: white;
     }
     input[type=password] {
+        font-family: 'Ranchers', cursive;
         background-color: #757575;
         color: white;
     }
