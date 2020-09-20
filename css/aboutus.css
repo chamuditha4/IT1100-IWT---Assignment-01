@@ -1,16 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
 
 body{
-	background-image:url("../media/gray-wallpaper-30-1024x640.jpg");
+    background-image:url("../img/f.jpg");
+    background-position: center;
+    background-size: fill;
 }
 
 h1{
     font-family: 'Ubuntu', sans-serif;
     font-size:40px;
-    text-align:center;
-    color: #2B547E;
+    
+    color: #f9fbfc;
     padding: 5%;
-    margin-right: 1000px;
+    margin-right: 6%;
     }
 .btn{
     border-radius: 5px  ;
@@ -18,10 +20,10 @@ h1{
     font-family: 'Ubuntu', sans-serif;
     font-size:15px;
     text-align:center;
-    margin-top:20px;
+    margin-top:15%;
     width:140px;
     height:40px;
     color:#fcfaf8;
     background-color: #F88017;
-    margin-left: 90px;
+    margin-left: 5%;
     }
