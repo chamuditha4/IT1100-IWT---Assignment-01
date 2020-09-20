@@ -58,8 +58,7 @@ nav li ul li:hover{
     width: 100%;
 }
 body{
-    background-image: url("../img/d.jpg");
-    
-    background-size: 100vh;
-    background-repeat: no-repeat;
+    background-image: url("../img/e.jpg");
+    background-position: center;
+    background-size: ;
 }
