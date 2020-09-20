@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="css/login_style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
@@ -8,6 +9,27 @@
 <body>
 <!-- Header Start -->
 <!-- Header End -->
+
+    <div class="center">
+        <form>
+            <label for="uname">Username :</label><br>
+            <input type="text" id="uname" name="uname" value=""><br>
+            <label for="email">Email :</label><br>
+            <input type="email" id="email" name="email" value=""><br>
+            <label for="uname">Password:</label><br>
+            <input type="text" id="uname" name="uname" value=""><br>
+            <label for="email">Re-type Password:</label><br>
+            <input type="email" id="email" name="email" value=""><br><br>
+            <label>Account type</label><br>
+            <input type="radio" id="emp" name="actype" value="employee">
+            <label for="emp">Employee</label><br>
+            <input type="radio" id="jobseek" name="actype" value="jobseek">
+            <label for="jobseek">Job seeker</label><br><br>
+            <label>Profile Picture</label><br>
+            <input type="file" id="myFile" name="filename"><br><br>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
 
 </body>
 </html>
