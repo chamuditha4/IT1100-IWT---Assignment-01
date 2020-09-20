@@ -2,12 +2,42 @@ h1{
 		font-weight: bold;
 		font-size: italic;
 		font-size: 32px;
-		color: purple;
+		color: green;
+		text-align: center;
 }
 hr {
-		border: 2px solid purple;
+		border: 2px solid white;
 }
 body
 	{
-	background-image: url("../img/a.jpg");
+	background-image:url("../img/f.jpg");
+	background-position: top;
+	background-repeat: no-repeat;
+	padding: 15px;
 	}
+li{
+	font-weight: bold;
+	font-size: italic;
+	font-size: 25px;
+	display:block;
+	color:black;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+	width:100%;
+}
+li.menu{
+	float:left;
+}
+li:hover{
+	background-color:grey;
+	
+}
+p{
+	font-size:18px;
+	text-align: center;
+	color:gold;
+}
+btn{
+	margin-right: 100%;
+}
