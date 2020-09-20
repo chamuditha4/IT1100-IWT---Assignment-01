@@ -1,7 +1,7 @@
 
 nav ul{
 	list-style: none;
-	background: #444;
+	background:#444444d6;
 	padding: 0;
 
     text-align: center;
@@ -74,4 +74,20 @@ body{
 .butt{
     display: block;
     width: 100%;
+
+    border-radius: 5px  ;
+    border : none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size:15px;
+    text-align:center;
+    width:140px;
+    height:40px;
+    color:#fcfaf8;
+    background-color: #1eb10c;
+    margin-top: 10%;
+    margin-right: auto;
+    margin-left: auto;
+}
+a{
+    text-decoration: none;
 }
