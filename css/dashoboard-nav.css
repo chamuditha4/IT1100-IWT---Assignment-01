@@ -16,17 +16,24 @@ nav a{
 
 nav li{
 	width: 15%;
-/*	border-right: 3px solid red; */
+	/*border-right: 3px solid red; */
 	line-height: 50px;
-	 font-size: 140%;
-	 margin-right: -4px;
-	 display: inline-block;
+	font-size: 140%;
+	margin-right: -4px;
+	display: inline-block;
+}
+
+nav li:hover{
+	background-color:#676b66;
 }
 
 nav li ul{
 	display: none;
 	position: absolute;
 	width: inherit;
+
+	padding: 0;
+	margin: 0 auto;
 }
 
 nav li:hover ul{
@@ -34,5 +41,14 @@ nav li:hover ul{
 }
 
 nav li ul li{
+	width: 100%;
 	display:block;
+	text-align: center;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+}
+
+nav li ul li:hover{
+	background-color:#1eb10c;
 }
