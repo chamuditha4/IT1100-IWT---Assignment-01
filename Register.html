@@ -17,16 +17,23 @@
             <label for="email">Email :</label><br>
             <input type="email" id="email" name="email" value=""><br>
             <label for="uname">Password:</label><br>
-            <input type="text" id="uname" name="uname" value=""><br>
+            <input type="password" id="uname" name="uname" value=""><br>
             <label for="email">Re-type Password:</label><br>
-            <input type="email" id="email" name="email" value=""><br><br>
+            <input type="password" id="email" name="email" value=""><br><br>
             <label>Account type</label><br>
-            <input type="radio" id="emp" name="actype" value="employee">
-            <label for="emp">Employee</label><br>
-            <input type="radio" id="jobseek" name="actype" value="jobseek">
-            <label for="jobseek">Job seeker</label><br><br>
+            <label class="container">Employee
+            <input type="radio" checked="checked" name="radio">
+            <span class="checkmark"></span>
+            </label>
+            <label class="container">Job seeker
+            <input type="radio" name="radio">
+            <span class="checkmark"></span>
+            </label>
             <label>Profile Picture</label><br>
-            <input type="file" id="myFile" name="filename"><br><br>
+            <div class="upload-btn-wrapper">
+                <button class="btn">Upload a file</button>
+                <input type="file" name="myfile" />
+              </div>
             <input type="submit" value="Submit">
           </form>
         </div>
