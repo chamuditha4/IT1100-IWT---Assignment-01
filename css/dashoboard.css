@@ -16,7 +16,7 @@ nav a{
 
 nav li{
 	width: 15%;
-	border-right: 3px solid red;
+/*	border-right: 3px solid red; */
 	line-height: 50px;
 	 font-size: 140%;
 	 margin-right: -4px;
