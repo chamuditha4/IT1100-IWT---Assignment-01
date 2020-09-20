@@ -2,5 +2,12 @@ h1{
 		font-weight: bold;
 		font-size: italic;
 		font-size: 32px;
-		color:red;
+		color: purple;
 }
+hr {
+		border: 2px solid purple;
+}
+body
+	{
+	background-image: url("../img/a.jpg");
+	}
