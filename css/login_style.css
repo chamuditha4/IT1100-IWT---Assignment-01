@@ -1,13 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
     input[type=text] {
+        font-family: 'Ubuntu', sans-serif;
         background-color: #757575;
         color: white;
     }
     input[type=email] {
+        font-family: 'Ubuntu', sans-serif;
         background-color: #757575;
         color: white;
     }
     input[type=password] {
+        font-family: 'Ubuntu', sans-serif;
         background-color: #757575;
         color: white;
     }
@@ -37,10 +40,10 @@
       }
 
     .center {
-    background-color: #FAFAFA;
+    background-color: #b0ff1c91;
     margin: auto;
     width: 250px;
-    border: 3px solid #757575;
+    border: 3px solid #ee1ab962;
     padding: 15px;
     margin-top: 20px;
     }
