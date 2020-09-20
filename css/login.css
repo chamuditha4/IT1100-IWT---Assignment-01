@@ -1,0 +1,38 @@
+
+nav ul{
+	list-style: none;
+	background: #444;
+	padding: 0;
+
+	text-align: center;
+}
+
+nav a{
+	text-decoration: none;
+	display: inline-block;
+	color: #ffffff;
+	padding: 1%;
+}
+
+nav li{
+	width: 15%;
+	border-right: 3px solid red;
+	line-height: 50px;
+	 font-size: 140%;
+	 margin-right: -4px;
+	 display: inline-block;
+}
+
+nav li ul{
+	display: none;
+	position: absolute;
+	width: inherit;
+}
+
+nav li:hover ul{
+	display: block;
+}
+
+nav li ul li{
+	display:block;
+}
