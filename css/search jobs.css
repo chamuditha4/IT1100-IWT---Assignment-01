@@ -14,7 +14,7 @@ dl.a{
 		text-align: left;
 }
 dl.b{
-		 text-shadow: 2px 2px 5px red;
+		text-shadow: 2px 2px 5px red;
 		font-weight: bold;
 		font-size: italic;
 		font-size: 32px;
@@ -29,7 +29,6 @@ body
 	padding: 15px;
 }
 button {
-  background-color: #4CAF50; /* Green */
   border: none;
   color: white;
   padding: 16px 32px;
@@ -50,4 +49,5 @@ button {
 button:hover {
   background-color: #555555;
   color: white;
+  text-shadow: 6px 6px 10px gold;
 }
