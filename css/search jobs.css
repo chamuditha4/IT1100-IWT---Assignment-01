@@ -2,9 +2,24 @@ h1{
 		font-weight: bold;
 		font-size: italic;
 		font-size: 32px;
-		color: green;
+		color: black;
 		text-align: center;
 }
+dl.a{
+		font-weight: bold;
+		font-size: italic;
+		font-size: 32px;
+		color: white;
+		text-align: left;
+}
+dl.b{
+		font-weight: bold;
+		font-size: italic;
+		font-size: 32px;
+		color: white;
+		text-align: right;
+}
+
 hr {
 		border: 2px solid white;
 }
