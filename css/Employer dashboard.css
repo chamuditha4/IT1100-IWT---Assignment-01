@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+h1{
+  display: inline;    
+}
+button{
+  display: inline; 
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;  
+  background-color: black; 
+}
+button:hover {
+  background-color: #555555;
+  color: white;
+  text-shadow: 6px 6px 10px gold;
+}
+
+</style>
+</html>
