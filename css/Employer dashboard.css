@@ -56,7 +56,11 @@ button:hover {
         margin-bottom: 500px;
         margin-right: -10%;
         margin-left: -10%;
-		}
+    }
+    div.e{
+      display: inline-block;
+      
+  }
 body
 {
 	background-image:url("../images/f.jpg");
