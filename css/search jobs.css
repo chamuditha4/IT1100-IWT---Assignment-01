@@ -1,3 +1,7 @@
+<!DOCTYPE html>
+<html>
+<style>
+
 h1{
 		font-weight: bold;
 		font-size: italic;
@@ -52,3 +56,6 @@ button:hover {
   color: white;
   text-shadow: 6px 6px 10px gold;
 }
+
+</style>
+</html>
