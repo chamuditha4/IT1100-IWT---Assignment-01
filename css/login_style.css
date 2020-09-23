@@ -47,6 +47,17 @@
     padding: 15px;
     margin-top: 20px;
     }
+
+    .center1 {
+      background-color: #ffffff00;
+      margin: auto;
+      width: 250px;
+      border: none;
+      padding: 15px;
+      margin-top: 20px;
+      }
+
+
     input[type=submit] {
     font-size: 100px;
     font-weight: bold;
@@ -123,4 +134,8 @@
           height: 8px;
           border-radius: 50%;
           background: white;
+      }
+
+      .search {
+        display: inline-block;
       }
