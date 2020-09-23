@@ -104,8 +104,10 @@ a{
 
 #logo{
     display:block;  
-    margin-left: 40%;
+    margin: 0 auto;
+    margin-bottom: 0%;
+/*    margin-left: 40%;
     margin-right: 40%;
     padding-left: 2%;
-    padding-right: 2%;
+    padding-right: 2%; */
 }
