@@ -14,8 +14,10 @@ h2{
         margin-left: 2%;
 		}
 button{
+  margin-top: 5px;
+  margin-bottom: 5px;
   display: inline-block; 
-  width: 100px;
+  width: 150px;
   height: 40px;
   padding: 10px;
   border: 1px solid black;  
