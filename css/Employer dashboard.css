@@ -8,10 +8,10 @@ h2{
 }
 .user{
 	 display: inline-block;
-        margin-top:8px;
-        margin-bottom:2px;
-        margin-right: 2%;
-        margin-left: 2%;
+    margin-top:8px;
+    margin-bottom:2px;
+    margin-right: 2%;
+    margin-left: 2%;
 		}
 button{
   border-radius: 45px;
@@ -23,7 +23,7 @@ button{
   padding: 10px;
   border: 1px solid black;  
   background-color: grey; 
-  margin-left: 1600px;
+  
 }
 button:hover {
   background-color: #555555;
@@ -31,32 +31,32 @@ button:hover {
   text-shadow: 6px 6px 10px gold;
 }
 	div.a{
-        margin-right: 5%;
-        margin-left: 5%;
+      margin-right: 5%;
+      margin-left: 5%;
         
-        background-color: rgba(255, 255, 255, 0.438);
+      background-color: rgba(255, 255, 255, 0.438);
       }
 	div.b{
-        display: inline-block;
-        margin-top:200px;
-        margin-bottom: 100px;
-        margin-right: 10%;
-        margin-left: 15%;
+    display: inline-block;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 10%;
+    margin-left: 10%;
       }
 	
     div.c{
-        display: inline-block;
-        margin-top: 200px;
-        margin-bottom: 100px;
-        margin-right: 10%;
-        margin-left: 10%;
+      display: inline-block;
+      margin-top: 100px;
+      margin-bottom: 100px;
+      margin-right: 10%;
+      margin-left: 10%;
       }
     div.d{
-        display: inline-block;
-        margin-top: -600px;
-        margin-bottom: 1000px;
-        margin-right: -10%;
-        margin-left: -10%;
+      display: inline-block;
+      margin-top: 100px;
+      margin-bottom: 100px;
+      margin-right: 10%;
+      margin-left: 10%;
     }
     div.e{
       display: inline-block;
