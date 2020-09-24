@@ -17,7 +17,8 @@ button{
 	padding: 10px;
 	border: 1px solid black;  
 	background-color: grey;
-	margin-left: 1600px;	
+	margin-left: 1600px;
+	text-decoration: none;
   
 }
 .user{
@@ -29,7 +30,7 @@ button{
 		}
 button:hover {
   background-color: #555555;
-  color: white;
+  color: black;
   text-shadow: 6px 6px 10px gold;
 }
 	div.a{
@@ -47,7 +48,7 @@ button:hover {
     margin-bottom: 100px;
     margin-right: 10%;
     margin-left: 10%;
-      }
+    }
 	
     div.c{
       display: inline-block;
