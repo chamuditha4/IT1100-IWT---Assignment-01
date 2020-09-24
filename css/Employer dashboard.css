@@ -1,6 +1,7 @@
 
 #use{
   display: inline-block;
+  float: left;
 }
 .navv{
   display: block;
@@ -13,12 +14,16 @@ h2{
 }
 
 .prof{
+  margin-left: 3%;
+  padding-left: 2%;
+  padding-right: 2%;
   display: inline-block;
-  width: 50%;
+  width: 40%;
   height: 100%;
   background-color:#cecece6b ;
 }
 #dp{
+  float:left;
   width:25%;
   margin: 10% 37% 10% 37%;
 }
@@ -36,10 +41,11 @@ button{
 	border: 1px solid black;  
 	background-color: grey;
   text-decoration: none;
-
+  margin: 0 30% 0 30%;
 }
 
 .tools{
+  width: 40%;
   display: inline-block;
   float: right;
 }
@@ -47,6 +53,7 @@ button{
 #logout{
 
   float: right;
+  margin: 0 0 0 0;
 
 }
 #user{
@@ -63,9 +70,7 @@ body
 {
 	background-image:url("../images/f.jpg");
   background-position: bottom;
-
 	background-repeat: no-repeat;
-	padding: 15px;
 }
 hr{
 	height: 5px;
