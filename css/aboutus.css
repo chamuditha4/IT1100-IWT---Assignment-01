@@ -28,7 +28,20 @@ h1{
     background-color: #F88017;
     margin-left: 5%;
     }
-    .contactuslogo{
+    .locationbutton{
+        border-radius: 10px  ;
+        border : none;
+        font-family: 'Ubuntu', sans-serif;
+        font-size:15px;
+        text-align:center;
+        margin-top:15%;
+        width:140px;
+        height:40px;
+        color:#fcfaf8;
+        background-color: #F88017;
+        margin-left: 5%;
+    }
+.contactuslogo{
         display:block;
         width:40px;
         height: 40px;
@@ -36,19 +49,19 @@ h1{
         margin-right: 2%;
     
     }
-    .contactlables{
+.contactlables{
         font-family: 'Baloo Tammudu 2', cursive;
         color:#fcfaf886;
         margin-left:38.67%;
         margin-right: 40%;
       
     }
-    .social{
+.social{
         margin-left: 5%;
         margin-right: 10%;
     
     }
-    h2{
+h2{
         font-family: 'Ubuntu', sans-serif;
         font-size:24px;
         
@@ -57,3 +70,4 @@ h1{
         margin-right: 6%;
         }
     }
+
