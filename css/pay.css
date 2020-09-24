@@ -31,14 +31,47 @@ p.c{
 	display: inline-block;
 	margin-top: 1%;
     margin-bottom: 1%;
-    margin-right: 5%;
+    margin-right: 32%;
     margin-left: 10%;
-	
 }
 p.d{
 	display: inline-block;
 	margin-top: 1%;
     margin-bottom: 1%;
-    margin-right: 5%;
+    margin-right: 31%;
     margin-left: 10%;
 }
+p.e{
+	margin-top: 0%;
+    margin-bottom: 1%;
+    margin-right: 5%;
+    margin-left: 59%;
+}
+p.f{
+	margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 5%;
+    margin-left: 62%;
+}
+p.g{
+	margin-top: 0%;
+    margin-bottom: 1%;
+    margin-right: 5%;
+    margin-left: 59%;
+}
+body{
+	background-image:url("../images/f.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: fill;
+}
+div.h{
+	margin-left: 3%;
+	padding-left: 2%;
+	padding-right: 2%;
+	display: inline-block;
+	width: 90%;
+	height: 100%;
+	background-color:#cecece6b ;
+}
+
