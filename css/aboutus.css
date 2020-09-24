@@ -88,4 +88,18 @@ h2{
         margin-right: 6%;
         }
 
-
+.center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 12%;
+            
+          }
+h3{
+            font-family: 'Ubuntu', sans-serif;
+            font-size:24px;
+            
+            color: #e2f3eebd;
+            
+            text-align:center;
+            }

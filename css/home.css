@@ -105,9 +105,14 @@ a{
 #logo{
     display:block;  
     margin: 0 auto;
-    margin-bottom: 0%;
+    margin-bottom: 3%;
+    margin-top: 3%;
 /*    margin-left: 40%;
     margin-right: 40%;
     padding-left: 2%;
     padding-right: 2%; */
+    width: 400px;
+    
+    
+
 }
