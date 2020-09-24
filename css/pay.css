@@ -42,14 +42,21 @@ p.d{
     margin-left: 10%;
 }
 p.e{
-	margin-top: 1%;
+	margin-top: 0%;
     margin-bottom: 1%;
     margin-right: 5%;
     margin-left: 56%;
 }
-p{
+p.f{
 	margin-top: 1%;
     margin-bottom: 1%;
     margin-right: 5%;
     margin-left: 59%;
 }
+p.g{
+	margin-top: 0%;
+    margin-bottom: 1%;
+    margin-right: 5%;
+    margin-left: 56%;
+}
+
