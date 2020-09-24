@@ -6,25 +6,27 @@ h2{
 		margin-left: 2%;
 		text-shadow: 2px 2px 5px gold;
 }
+
+button{
+	display: inline-block; 
+	border-radius: 45px;
+	margin-top: -10px;
+	margin-bottom: 10px;
+	width: 150px;
+	height: 40px;
+	padding: 10px;
+	border: 1px solid black;  
+	background-color: grey;
+	margin-left: 1600px;	
+  
+}
 .user{
 	 display: inline-block;
     margin-top:8px;
     margin-bottom:2px;
-    margin-right: 2%;
-    margin-left: 2%;
+    margin-right: 5%;
+    margin-left: 5%;
 		}
-button{
-  border-radius: 45px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  display: inline-block; 
-  width: 150px;
-  height: 40px;
-  padding: 10px;
-  border: 1px solid black;  
-  background-color: grey; 
-  
-}
 button:hover {
   background-color: #555555;
   color: white;
@@ -56,10 +58,10 @@ button:hover {
       }
     div.d{
       display: inline-block;
-      margin-top: 100px;
+      margin-top: -300px;
       margin-bottom: 100px;
       margin-right: 10%;
-      margin-left: 10%;
+      margin-left: -8%;
     }
     div.e{
       display: inline-block;
