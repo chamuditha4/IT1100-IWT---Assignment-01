@@ -21,7 +21,7 @@ button{
   
 }
 .user{
-	 display: inline-block;
+	display: inline-block;
     margin-top:8px;
     margin-bottom:2px;
     margin-right: 5%;
@@ -78,6 +78,11 @@ hr{
 	height: 5px;
 	background-color: white;
 	border: none;
+}
+h1{
+	display: inline-block;
+	color: white;
+	text-shadow: 2px 2px 5px gold;
 }
 	
 
