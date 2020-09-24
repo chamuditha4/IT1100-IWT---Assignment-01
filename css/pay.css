@@ -1,14 +1,21 @@
 .user{
-	width:15%;
+	width:7%;
 }
 div.a{
     display: inline-block;
 	}
 h1{
+	font-family: sans-serif;
 	display: inline-block;
 	color: black;
-	text-shadow: 2px 2px 5px gold;
+	font-size: 25px;
+	/* text-shadow: 2px 2px 5px gold; */
 }
+
+h1 a{
+	color: rgb(9, 190, 214);
+}
+
 h1.b{
 	color:black;
 }
@@ -22,12 +29,17 @@ button{
 	background-color: #03DAC6;
 	text-decoration: none;
 }
+
+button a{
+	color: black;
+
+}
+
 button:hover {
   background-color: #018786;
-  color: #018786;
-  text-shadow: 6px 6px 10px gold;
+  /* text-shadow: 6px 6px 10px gold; */
 }
-p.c{
+/* p.c{
 	display: inline-block;
 	margin-top: 1%;
     margin-bottom: 1%;
@@ -58,7 +70,7 @@ p.g{
     margin-bottom: 1%;
     margin-right: 5%;
     margin-left: 59%;
-}
+} */
 body{
 	background-image:url("../images/f.jpg");
 	background-position: center;
@@ -76,4 +88,46 @@ div.h{
 }
 
 .payvia{
+	padding: 2% 35% 5% 35%;
+}
+a{
+	text-decoration: none;
+}
+
+#logout{
+	float:right ;
+}
+.a{
+	width: 100%;
+}
+
+.ee{
+	margin-left: 80%;
+}
+
+.de{
+	margin-left: 80%;
+
+}
+
+.bb{
+	margin-left: 80%;
+}
+
+.h{
+	font-size: larger;
+}
+
+.navvv{
+	height: 60px;
+	background-color:#272727e3;
+}
+
+.navvv a:hover{
+	color: brown;
+}
+
+hr{
+	height: 2px;
+	background-color: white;
 }
