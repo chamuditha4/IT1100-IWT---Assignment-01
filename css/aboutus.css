@@ -22,7 +22,7 @@ h1{
     font-family: 'Ubuntu', sans-serif;
     font-size:15px;
     text-align:center;
-    margin-top:15%;
+    margin-top:10%;
     width:140px;
     height:40px;
     color:#fcfaf8;
@@ -83,16 +83,17 @@ h2{
         font-family: 'Ubuntu', sans-serif;
         font-size:24px;
         
-        color: #e2f3eebd;
-        padding: 5%;
-        margin-right: 6%;
+        color: #fafafaea;
+        padding: 1%;
+        margin-left: 4%;
         }
+
 
 .center {
             display: block;
             margin-left: auto;
             margin-right: auto;
-            margin-top: 12%;
+            margin-top: 0%;
             
           }
 h3{
@@ -103,3 +104,29 @@ h3{
             
             text-align:center;
             }
+.copy{
+    font-family: 'Ubuntu', sans-serif;
+    text-align:center;
+    color: #e2f3eebd;
+    font-size:13px;
+    margin-bottom: 3%;
+}
+.faq{
+    background-color: #363535a4;
+    padding-top: 7%;
+    padding-bottom: 6%;
+    
+    
+}
+.pawork{
+    font-family: 'Ubuntu', sans-serif;
+    padding-bottom: 4% ;
+    padding-left: 7%;
+    color: #e2f3eeda;
+}
+.wherewebac{
+    background-color:#36353577;
+    
+    padding-top: 1%;
+    padding-bottom: 4%;
+}
