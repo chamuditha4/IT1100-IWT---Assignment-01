@@ -5,6 +5,7 @@ body{
     background-image:url("../images/f.jpg");
     background-position: center;
     background-size: fill;
+    background-repeat: no-repeat;
 }
 
 h1{
@@ -35,8 +36,8 @@ h1{
         font-size:15px;
         text-align:center;
         margin-top:15%;
-        width:140px;
-        height:40px;
+        width:286px;
+        height:286px;
         color:#fcfaf8;
         background-color: #F88017;
         margin-left: 5%;
