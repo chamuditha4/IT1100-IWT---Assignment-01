@@ -1,0 +1,11 @@
+div.e{
+    display: inline-block;
+	}
+h1{
+	display: inline-block;
+	color: black;
+	text-shadow: 2px 2px 5px gold;
+}
+h1.f{
+	color:black;
+}
