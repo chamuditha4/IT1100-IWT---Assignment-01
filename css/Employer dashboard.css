@@ -29,14 +29,15 @@ p{
 
 button{
 	display: inline-block; 
-	border-radius: 45px;
 	width: 150px;
 	height: 40px;
-	border: 1px solid black;  
-	background-color: grey;
+	/* border: 1px solid black;   */
+	background-color: #1eb10c;
   text-decoration: none;
   margin: 0 30% 0 30%;
   margin-bottom: 1%;
+  border: none;
+  color: white;
 }
 
 .tools{
@@ -49,17 +50,25 @@ button{
 #logout{
 
   float: right;
-  margin: 0 0 0 0;
-
+  margin: 0 2% 0 0;
+  background-color: white;
+  border: 2px solid #1eb10c;
+  border-radius: 45px;
+  transition: border 0.5s linear;
+  font-weight: 900;
+}
+a{
+  color: white;
+  text-decoration: none;
 }
 #user{
   width: 7%;
   display: inline-block;
 		}
 button:hover {
-  background-color: #555555;
+  background-color: #ffffff9c;
   color: black;
-  text-shadow: 6px 6px 10px gold;
+  /* text-shadow: 6px 6px 10px gold; */
 }
 
 body
@@ -81,10 +90,20 @@ h1{
 
 a{
   text-decoration: none;
-  color:#002bff;
+  color:white;
 }
 
 #use{
   float: left;
   display: inline;
+}
+
+#logout a{
+  color:#1eb10c;
+}
+
+#logout:hover{
+  background-color: #9b9b9b00;
+  /* font-weight: 900; */
+  /* border: 4px solid #1eb10c ; */
 }
