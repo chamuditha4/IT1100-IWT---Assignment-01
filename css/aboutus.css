@@ -29,20 +29,7 @@ h1{
     background-color: #F88017;
     margin-left: 5%;
     }
-    .locationbutton{
-        border-radius: 25px  ;
-        border : none;
-        font-family: 'Ubuntu', sans-serif;
-        font-size:15px;
-        text-align:center;
-        margin-top:-3%;
-        width:286px;
-        height:286px;
-        color:#fcfaf8;
-        background-color: #0077CC80;
-        margin-left: 10%;
-        
-    }
+
     .locationbutton2{
         border-radius: 25px  ;
         border : none;
@@ -52,6 +39,21 @@ h1{
         margin-top:-3%;
         width:334px;
         height:334px;
+        color:#fcfaf8;
+        background-color: #0077CC80;
+        margin-left: 10%;
+        
+        
+    }
+    .locationbutton{
+        border-radius: 25px  ;
+        border : none;
+        font-family: 'Ubuntu', sans-serif;
+        font-size:15px;
+        text-align:center;
+        margin-top:-3%;
+        width:286px;
+        height:286px;
         color:#fcfaf8;
         background-color: #0077CC80;
         margin-left: 10%;
