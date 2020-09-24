@@ -27,4 +27,18 @@ button:hover {
   color: #018786;
   text-shadow: 6px 6px 10px gold;
 }
-
+p.c{
+	display: inline-block;
+	margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 5%;
+    margin-left: 10%;
+	
+}
+p.d{
+	display: inline-block;
+	margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 5%;
+    margin-left: 10%;
+}
