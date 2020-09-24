@@ -84,5 +84,8 @@ h1{
 	color: white;
 	text-shadow: 2px 2px 5px gold;
 }
-	
-
+  
+a{
+  text-decoration: none;
+  color:#002bff;
+}
