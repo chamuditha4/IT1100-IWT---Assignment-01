@@ -33,12 +33,23 @@ p.c{
     margin-bottom: 1%;
     margin-right: 5%;
     margin-left: 10%;
-	
 }
 p.d{
 	display: inline-block;
 	margin-top: 1%;
     margin-bottom: 1%;
-    margin-right: 5%;
+    margin-right: 6%;
     margin-left: 10%;
+}
+p.e{
+	margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 5%;
+    margin-left: 56%;
+}
+p{
+	margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 5%;
+    margin-left: 59%;
 }
