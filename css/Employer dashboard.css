@@ -8,6 +8,7 @@ h2{
 }
 
 .prof{
+  margin-top: 5%;
   margin-left: 3%;
   padding-left: 2%;
   padding-right: 2%;
@@ -56,6 +57,7 @@ button{
   border-radius: 45px;
   transition: border 0.5s linear;
   font-weight: 900;
+  color: #1eb10c;
   
 }
 a{
