@@ -75,17 +75,17 @@ footer{
   margin-bottom: 1%;
 }
 
+.social{
+  margin-left: 5%;
+  margin-right: 10%;
+
+}
+
 .contactuslogo{
   display:block;
   width:40px;
   height: 40px;
   display : inline-block;
   margin-right: 2%;
-
-}
-
-.social{
-  margin-left: 5%;
-  margin-right: 10%;
 
 }
