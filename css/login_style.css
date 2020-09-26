@@ -219,6 +219,9 @@
     footer{
       padding: 1%;
       background-color: #000000b8;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
   }
   .copy{
       font-family: 'Ubuntu', sans-serif;
