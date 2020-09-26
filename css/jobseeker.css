@@ -1,6 +1,8 @@
 #user{
-    width: 7%;
-    display: inline-block;
+  width: 6%;
+  margin-bottom:3px;
+  margin-top:8px;
+  display: inline-block;
 }
 
 .logout a{
@@ -25,7 +27,7 @@
 h1{
 	font-family: sans-serif;
 	display: inline-block;
-	color: black;
+	color: white;
 	font-size: 25px;
 	/* text-shadow: 2px 2px 5px gold; */
 }
@@ -35,15 +37,13 @@ h1 a{
 }
 
 .logout{
-    width: 150px;
-    height: 40px;
-    float: right;
-    margin: 0 2% 0 0;
-    background-color: white;
-    border: 2px solid #1eb10c;
-    border-radius: 45px;
-    transition: border 0.5s linear;
-    font-weight: 900;
+  float: right;
+  margin: 2.3% 2% 0 0;
+  background-color: #f88017c2;
+  border-radius: 10px;
+  transition: border 0.5s linear;
+  font-weight: 900;
+  color: #f4f7f3;
     
   }
 
