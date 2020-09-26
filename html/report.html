@@ -13,7 +13,7 @@
     
       <h1>Username</h1> 
     
-      <button> <a href="home.html">Logout </a></button>
+      <a href="home.html"></a><button class="logout"> Logout </button></a>
     </div>
     
     
@@ -27,11 +27,20 @@
   </div>
 
 <form>
-  <label for="rtype">Select </label>
-
+  <label for="rtype"><h2>Select Report Type</h2> </label>
+  <br>
+  <select name="rtype">
+  <option value="">Offensive Language</option>
+  <option value="">Racism</option>
+  <option value="">Offensive to Some People</option>
+  <option value="">Abuse</option>
+  <option value="">Other</option>
+  </select>
   <label for="reason"><h2>Reason for reporting</h2></label>
   <br>
   <textarea  rows="10" cols="70" name="reason"></textarea>
+<br>
+  <input type="submit" value="Submit">
 
 </form>
 
