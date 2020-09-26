@@ -6,6 +6,7 @@ body{
     background-position: center;
     background-size: fill;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 h1{

@@ -26,7 +26,8 @@ body
 	background-image:url("../images/f.jpg");
 	background-position: top;
 	background-repeat: no-repeat;
-	padding: 15px;
+  padding: 15px;
+  background-attachment: fixed;
 }
 button {
   border: none;
