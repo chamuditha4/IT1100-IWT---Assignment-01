@@ -1,11 +1,14 @@
 
 
 
-/*h2{
-		margin-right: 2%;
-		margin-left: 2%;
-		text-shadow: 2px 2px 5px gold;
-}*/
+h2{
+  font-family: 'Ubuntu', sans-serif;
+  font-size:24px;
+  
+  color: #d1ceceea;
+  padding: 0%;
+  margin-left: 0%;
+  }
 .prof{
   margin-top: 5%;
   margin-left: 3%;
@@ -43,7 +46,9 @@ button{
   border-radius: 5px;
 	width: 150px;
 	height: 40px;
-	padding: 10px;
+  padding: 10px;
+  
+
 }
 
 
@@ -188,3 +193,21 @@ footer{
   background: #00000063;
 }
 
+.bod{
+  padding: 3%;
+  background: #2f302f6c;
+}
+
+.subm{
+  border-radius: 5px  ;
+  border : none;
+  font-family: 'Ubuntu', sans-serif;
+  font-size:15px;
+  text-align:center;
+  margin-top:2%;
+  width:140px;
+  height:40px;
+  color:#fcfaf8;
+  background-color: #f88017d3;
+  margin-left: 0%;
+}
