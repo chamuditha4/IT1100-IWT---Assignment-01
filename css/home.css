@@ -111,7 +111,6 @@ a{
     width:20%;
     display:block;  
     margin: 0 auto;
-<<<<<<< Updated upstream
     margin-bottom: 3%;
     margin-top: 3%;
 /*    margin-left: 40%;
@@ -142,11 +141,9 @@ footer{
     color: #e2f3eebd;
     font-size:13px;
     margin-bottom: 1%;
-=======
   /*  margin-left: 40%;
     margin-right: 40%;
    padding-left: 2%;
     padding-right: 2%;  */
     margin-bottom: 0% ;
->>>>>>> Stashed changes
 }
