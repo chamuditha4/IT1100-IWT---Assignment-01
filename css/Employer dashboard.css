@@ -137,3 +137,11 @@ h1{
 h1 a{
 	color: rgb(9, 190, 214);
 }
+
+.copy{
+  font-family: 'Ubuntu', sans-serif;
+  text-align:center;
+  color: #e2f3eebd;
+  font-size:13px;
+  margin-bottom: 3%;
+}

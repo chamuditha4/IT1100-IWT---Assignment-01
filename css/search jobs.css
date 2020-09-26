@@ -53,3 +53,10 @@ button:hover {
   text-shadow: 6px 6px 10px gold;
 }
 
+.copy{
+    font-family: 'Ubuntu', sans-serif;
+    text-align:center;
+    color: #e2f3eebd;
+    font-size:13px;
+    margin-bottom: 3%;
+}

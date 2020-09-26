@@ -56,3 +56,11 @@ nav li ul li:hover{
     background-color:#1eb10c;
     width: 100%;
 }
+
+.copy{
+    font-family: 'Ubuntu', sans-serif;
+    text-align:center;
+    color: #e2f3eebd;
+    font-size:13px;
+    margin-bottom: 3%;
+}

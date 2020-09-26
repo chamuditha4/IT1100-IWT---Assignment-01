@@ -21,3 +21,10 @@ button{
 a{
     margin-top: 0 auto;
 }
+.copy{
+    font-family: 'Ubuntu', sans-serif;
+    text-align:center;
+    color: #e2f3eebd;
+    font-size:13px;
+    margin-bottom: 3%;
+}

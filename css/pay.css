@@ -131,3 +131,11 @@ hr{
 	height: 2px;
 	background-color: white;
 }
+
+.copy{
+    font-family: 'Ubuntu', sans-serif;
+    text-align:center;
+    color: #e2f3eebd;
+    font-size:13px;
+    margin-bottom: 3%;
+}

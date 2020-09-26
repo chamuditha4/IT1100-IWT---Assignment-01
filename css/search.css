@@ -38,3 +38,12 @@
     clear: both;
     display: table;
   }
+
+
+  .copy{
+    font-family: 'Ubuntu', sans-serif;
+    text-align:center;
+    color: #e2f3eebd;
+    font-size:13px;
+    margin-bottom: 3%;
+}
