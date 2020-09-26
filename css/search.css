@@ -77,6 +77,12 @@
     margin-bottom: 1%;
 }
 
+.social{
+  margin-left: 5%;
+  margin-right: 10%;
+
+}
+
 .contactuslogo{
   display:block;
   width:40px;
@@ -86,8 +92,3 @@
 
 }
 
-.social{
-  margin-left: 5%;
-  margin-right: 10%;
-
-}
