@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
+    <link rel="stylesheet" href="../css/login_style.css">
     <link rel="stylesheet" href="../css/dashoboard-nav.css">
     <link rel="stylesheet" href="../css/home.css">
-    <link rel="stylesheet" href="../css/login_style.css">
-    <script type="text/javascript" src="../js/loginej.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <script type="text/javascript" src="../js/Date&Time.js"></script>
 </head>
 <body>
+  <div >
+      
+    <h1 id="today">
+   
+   </div>
 <!-- Header Start -->
 <nav>
     <ul>
@@ -26,9 +30,9 @@
       <li><a href="Map.html">Find Us</a></li>
       <li><a href="about us.html" class="active">About Us</a>
         <ul>
-          <li><a href="about%20us.html#aboutsec">Our Story</a></li>
-            <li><a href="about%20us.html#missionpa">Our Mission</a></li>
-            <li><a href="about%20us.html#wherewebac">Where We Work</a></li>
+          <li><a href="#">Our Story</a></li>
+          <li><a href="#">Our Mission</a></li>
+          <li><a href="#">Where We Work</a></li>
         </ul>
       </li>
       <li><a href="contactUs.html">Contact Us</a></li>
@@ -37,21 +41,12 @@
 <!-- Header End -->
 
     <div class="center">
-        <form onsubmit="return myFunction(this)">
+        <form action="Employer dashboard.html">
             <label for="uname">Username:</label><br>
-            <input type="text" id="uname" name="uname" value="" required><br>
+            <input type="text" id="uname" name="uname" value=""><br>
             <label for="pwd">Password:</label><br>
-            <input type="password" id="pwd" name="pwd" value="" required><br><br>
-            <label>Account type</label><br>
-            <label class="container">Employee
-            <input type="radio" id = "Employeerad"  name="radio" required>
-            <span class="checkmark"></span>
-            </label>
-            <label class="container">Job seeker
-            <input type="radio" name="radio" id="Jobseekerrad" required>
-            <span class="checkmark"></span>
-            </label>
-            <input id = "Signin" type="submit" value="Submit">
+            <input type="password" id="pwd" name="pwd" value=""><br><br>
+            <input type="submit" id="butto" value="Submit">
           </form>
         </div>
 
