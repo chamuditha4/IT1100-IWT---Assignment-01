@@ -5,6 +5,7 @@
 <title> Pay </title>
 <link rel="stylesheet" href="../css/pay.css">
 <script type="text/javascript" src="../js/logoutConfirm.js"></script>
+<script type="text/javascript" src="../js/payConfirm.js"></script>
 </head>
 
 <body>
@@ -43,9 +44,9 @@
 
 
 <div class="payvia">
-<button >Pay via card</button>
+<button onclick="return PayPaypal()">Pay via card</button>
 
-<button type="button">Pay via paypal</button><br>
+<button type="button" onclick="return PayCard()">Pay via paypal</button><br>
 </div>
 </body>
 
