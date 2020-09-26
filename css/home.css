@@ -81,6 +81,7 @@ body{
     margin-bottom: 10%;
     padding-top: 5%;
     padding-bottom: 5%;
+    
 }
 .butt{
     display: block;
@@ -98,6 +99,8 @@ body{
     margin-top: 10%;
     margin-right: auto;
     margin-left: auto;
+
+    transition: 0.25s linear;
 }
 a{
     text-decoration: none;
@@ -158,4 +161,8 @@ footer{
     margin-left: 5%;
     margin-right: 10%;
 
+}
+
+.home button:hover{
+    background-color: #0b8e33;
 }

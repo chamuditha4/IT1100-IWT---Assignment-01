@@ -21,15 +21,11 @@
         display: inline-block;
       }
       
-      .btn {
-        border: 2px solid gray;
-        color: gray;
-        background-color: white;
-        padding: 8px 20px;
-        border-radius: 8px;
-        font-size: 20px;
-        font-weight: bold;
-      }
+      
+
+      input[type=submit]:hover{
+        background-color: #0b8e33;
+    }
       
       .upload-btn-wrapper input[type=file] {
         font-size: 100px;
@@ -64,18 +60,23 @@
         background-color:#ffffff40;
        }
     input[type=submit] {
-    font-size: 100px;
-    font-weight: bold;
-    width: 200px;
-    height: 45px;
-    background: white;
-    border-color: gray;
-    border-radius: 15px;
-    padding: 2px 6px;
-    color: black;
-    text-decoration: none;
-    font-size: 15px;
-    margin: 0 15px;
+      display: block;
+      width: 100%;
+  
+      border-radius: 5px  ;
+      border : none;
+      font-family: 'Ubuntu', sans-serif;
+      font-size:15px;
+      text-align:center;
+      width:140px;
+      height:40px;
+      color:#fcfaf8;
+      background-color: #1eb10c;
+      margin-top: 10%;
+      margin-right: auto;
+      margin-left: auto;
+  
+      transition: 0.25s linear;
     }
 
     .container {
@@ -111,12 +112,12 @@
       
       
       .container:hover input ~ .checkmark {
-        background-color: #ccc;
+        background-color: rgb(0, 202, 44);
       }
       
       
       .container input:checked ~ .checkmark {
-        background-color: #757575;
+        background-color: #098f26;
       }
       
       
