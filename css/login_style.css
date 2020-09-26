@@ -217,12 +217,13 @@
     }
 
     footer{
+      margin-top: 10%;
       padding: 1%;
       background-color: #000000b8;
       margin-top: 100%;
       position: absolute;
       bottom: 0%;
-      width: 100%;
+      width: 97%;
       padding-top: 10px;
       padding-bottom: 0px;
   }
@@ -236,4 +237,19 @@
 
 .center{
   margin-bottom: 20%;
+}
+
+.contactuslogo{
+  display:block;
+  width:40px;
+  height: 40px;
+  display : inline-block;
+  margin-right: 2%;
+
+}
+
+.social{
+  margin-left: 5%;
+  margin-right: 10%;
+
 }

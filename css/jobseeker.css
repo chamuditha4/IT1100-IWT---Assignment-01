@@ -68,6 +68,7 @@ h1 a{
 }
 
 footer{
+  margin-top: 10%;
   padding: 1%;
   background-color: #000000b8;
 }
@@ -77,4 +78,19 @@ footer{
   color: #e2f3eebd;
   font-size:13px;
   margin-bottom: 1%;
+}
+
+.contactuslogo{
+  display:block;
+  width:40px;
+  height: 40px;
+  display : inline-block;
+  margin-right: 2%;
+
+}
+
+.social{
+  margin-left: 5%;
+  margin-right: 10%;
+
 }

@@ -128,6 +128,7 @@ a{
 }
 
 footer{
+    margin-top: 10%;
     padding: 1%;
     background-color: #000000b8;
 }
@@ -142,4 +143,19 @@ footer{
    padding-left: 2%;
     padding-right: 2%;  */
     margin-bottom: 0% ;
+}
+
+.contactuslogo{
+    display:block;
+    width:40px;
+    height: 40px;
+    display : inline-block;
+    margin-right: 2%;
+
+}
+
+.social{
+    margin-left: 5%;
+    margin-right: 10%;
+
 }
