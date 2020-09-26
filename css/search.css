@@ -53,3 +53,13 @@
     font-size:13px;
     margin-bottom: 3%;
 }
+  .results{
+    color: white;
+    background-color: #cecece6b;
+    width: 80%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+  }
