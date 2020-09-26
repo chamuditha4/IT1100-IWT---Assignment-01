@@ -2,7 +2,7 @@
     box-sizing: border-box;
   }
   
-  form.example input[type=text] {
+  form.search input[type=text] {
     margin-top: 5px;
     margin-left: 10%;
     margin-bottom: 5px;
@@ -14,9 +14,9 @@
     background: #f1f1f1;
   }
   
-  form.example button {
+  form.search button {
     margin-top: 5px;
-    margin-left: 25%;
+    margin-left: 35%;
     margin-bottom: 5px;
     float: left;
     width: 20%;
@@ -27,13 +27,19 @@
     border: 1px solid grey;
     border-left: none;
     cursor: pointer;
+    opacity: 0.6;
+    transition: 0.5s;
   }
   
-  form.example button:hover {
-    background: #0b7dda;
+  form.search button:hover {
+    background: #014e8d;
+    font-size: 15px;
+    font-weight: 600;
+    opacity: 1;
+    width: 25%;
   }
   
-  form.example::after {
+  form.search::after {
     content: "";
     clear: both;
     display: table;
