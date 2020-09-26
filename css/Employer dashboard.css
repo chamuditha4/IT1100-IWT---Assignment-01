@@ -148,3 +148,15 @@ h1 a{
   /* font-weight: 900; */
   /* border: 4px solid #1eb10c ; */
 }
+
+footer{
+  padding: 1%;
+  background-color: #000000b8;
+}
+.copy{
+  font-family: 'Ubuntu', sans-serif;
+  text-align:center;
+  color: #e2f3eebd;
+  font-size:13px;
+  margin-bottom: 1%;
+}

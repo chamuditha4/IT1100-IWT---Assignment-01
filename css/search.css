@@ -63,3 +63,15 @@
     margin-right: 10%;
     text-align: center;
   }
+
+  footer{
+    padding: 1%;
+    background-color: #000000b8;
+}
+.copy{
+    font-family: 'Ubuntu', sans-serif;
+    text-align:center;
+    color: #e2f3eebd;
+    font-size:13px;
+    margin-bottom: 1%;
+}

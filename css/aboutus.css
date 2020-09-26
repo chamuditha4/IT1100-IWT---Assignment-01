@@ -105,13 +105,7 @@ h3{
             
             text-align:center;
             }
-.copy{
-    font-family: 'Ubuntu', sans-serif;
-    text-align:center;
-    color: #e2f3eebd;
-    font-size:13px;
-    margin-bottom: 3%;
-}
+
 .faq{
     background-color: #363535c0;
     padding-top: 7%;
@@ -150,5 +144,17 @@ h3{
     padding-top: 1%;
     padding-bottom: 2%;
     margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+footer{
+    padding: 1%;
+    background-color: #000000b8;
+}
+.copy{
+    font-family: 'Ubuntu', sans-serif;
+    text-align:center;
+    color: #e2f3eebd;
+    font-size:13px;
     margin-bottom: 1%;
 }
