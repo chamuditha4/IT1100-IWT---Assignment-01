@@ -39,6 +39,12 @@ button{
   margin-bottom: 1%;
   border: none;
   color: white;
+
+
+  border-radius: 5px;
+	width: 150px;
+	height: 40px;
+	padding: 10px;
 }
 
 .tools{
@@ -70,7 +76,7 @@ a{
 		}
 button:hover {
   background-color: #ffffff9c;
-  color: black;
+  color: white;
   /* text-shadow: 6px 6px 10px gold; */
 }
 
