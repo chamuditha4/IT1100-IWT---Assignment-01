@@ -1,6 +1,5 @@
-.user{
-	width:7%;
-}
+
+
 div.a{
     display: inline-block;
 	}
@@ -100,6 +99,7 @@ a{
 }
 .a{
 	width: 100%;
+	background: #00000063;
 }
 
 .ee{
