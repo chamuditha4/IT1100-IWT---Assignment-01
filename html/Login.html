@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="../css/login_style.css">
     <link rel="stylesheet" href="../css/dashoboard-nav.css">
     <link rel="stylesheet" href="../css/home.css">
+    <script type="text/javascript" src="../js/loginej.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
@@ -35,12 +36,21 @@
 <!-- Header End -->
 
     <div class="center">
-        <form action="Employer dashboard.html">
+        <form onsubmit="return myFunction(this)">
             <label for="uname">Username:</label><br>
-            <input type="text" id="uname" name="uname" value=""><br>
+            <input type="text" id="uname" name="uname" value="" required><br>
             <label for="pwd">Password:</label><br>
-            <input type="password" id="pwd" name="pwd" value=""><br><br>
-            <input type="submit" id="butto" value="Submit">
+            <input type="password" id="pwd" name="pwd" value="" required><br><br>
+            <label>Account type</label><br>
+            <label class="container">Employee
+            <input type="radio" id = "Employeerad"  name="radio" required>
+            <span class="checkmark"></span>
+            </label>
+            <label class="container">Job seeker
+            <input type="radio" name="radio" id="Jobseekerrad" required>
+            <span class="checkmark"></span>
+            </label>
+            <input id = "Signin" type="submit" value="Submit">
           </form>
         </div>
 
