@@ -103,16 +103,17 @@ a{
 }
 
 .ee{
-	margin-left: 80%;
+	margin-left: 77%;
+	color: aliceblue;
 }
 
 .de{
-	margin-left: 80%;
+	margin-left: 66%;
 
 }
 
 .bb{
-	margin-left: 80%;
+	margin-left: 68%;
 }
 
 .h{
@@ -167,4 +168,16 @@ footer{
     display : inline-block;
     margin-right: 2%;
 
+}
+p.aa{
+	display: inline-block;
+}
+p.bb{
+	display: inline-block;
+}
+p.d{
+	display: inline-block;
+}
+p.de{
+	display: inline-block;
 }
