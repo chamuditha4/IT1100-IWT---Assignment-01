@@ -103,7 +103,7 @@ a{
 }
 
 .ee{
-	margin-left: 75%;
+	margin-left: 88%;
 	color: aliceblue;
 }
 
@@ -113,7 +113,7 @@ a{
 }
 
 .bb{
-	margin-left: 66%;
+	margin-left: 60%;
 }
 
 .h{
@@ -171,13 +171,16 @@ footer{
 }
 p.aa{
 	display: inline-block;
+	margin-right: 20% ;
 }
 p.bb{
 	display: inline-block;
 }
 p.d{
 	display: inline-block;
+	margin-right: 20%;
 }
 p.de{
 	display: inline-block;
+	margin-left: 58%;
 }
