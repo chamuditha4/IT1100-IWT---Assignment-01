@@ -6,7 +6,7 @@ function Messageerr() {
 
   }
 function mesgg(){
-    alert("We are under maintain!!.");
+    alert("We are under maintenance!.");
     setTimeout(bg, 300); 
 }
   function bg(){
