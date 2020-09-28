@@ -2,9 +2,11 @@
 <head>
     <title>About us</title>
     <link rel="stylesheet" href="../css/aboutus.css">
+    <link rel="stylesheet" href="../css/popup.css">
     <script type="text/javascript" src="../js/Date&Time.js"></script>
+    <script type="text/javascript" src="../js/Popup.js"></script>
 </head>
-<body>
+<body onload="Popup()">
   <div>
       
     <h1 id="today"> </h1>
@@ -53,8 +55,22 @@
     <img src = "../media/Q.png" width="100" height="100" class="center"/><br>
     <h3>Check out our FAQ about how<br>BetterJobs works.</h3>
 </div>
-    <a href="https://www.quora.com"><button id="btn1" class="btn" >KNOW US</button></a><br><br>
-   
+    <button id="know" class="btn" >KNOW US</button></a><br><br>
+    <h2>Modal Example</h2>
+
+
+    
+    
+    <div id="popup" class="modal">
+    
+      
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Some text in the Modal..</p>
+      </div>
+    
+    </div> 
+
 <footer>
 
 <p class= copy >© 2020 BetterJobs®</p>
