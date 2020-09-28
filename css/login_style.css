@@ -217,17 +217,7 @@
         margin-bottom: 3%;
     }
 
-    footer{
-      margin-top: 10%;
-      padding: 1%;
-      background-color: #000000b8;
-      margin-top: 100%;
-      position: absolute;
-      bottom: 0%;
-      width: 97%;
-      padding-top: 10px;
-      padding-bottom: 0px;
-  }
+
   .copy{
       font-family: 'Ubuntu', sans-serif;
       text-align:center;
