@@ -13,5 +13,3 @@ function mesgg(){
     document.body.style.backgroundImage = "url('../images/f.jpg')";
     document.body.style.backgroundColor = "white";
   }
-
-  
