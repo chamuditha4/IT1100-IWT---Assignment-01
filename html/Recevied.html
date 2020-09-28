@@ -4,6 +4,8 @@
 <head>
 <title> Pay </title>
 <link rel="stylesheet" href="../css/pay.css">
+<link rel="stylesheet" href="../css/Employer dashboard.css">
+<link rel="stylesheet" href="../css/search.css">
 <script type="text/javascript" src="../js/logoutConfirm.js"></script>
 <script type="text/javascript" src="../js/payConfirm.js"></script>
 <script type="text/javascript" src="../js/Date&Time.js"></script>
@@ -18,13 +20,15 @@
    
    </div>
 
-<hr>
-<div class="a">
-  <img class="user" src="../images/user.png">
 
-  <h1 class="b">Username</h1> 
+<div class="hed">
 
-  <button id="logout" onclick="return logoutConfirm()">Logout </a></button>
+  <img id="user" src="../images/user.png">
+
+  <h1 id="use">Username</h1> 
+
+  <button class="logout" onclick="return logoutConfirm()">Logout </a></button>
+  <button class="logout"  onclick="return switching_e()">To JobSeeker</a></button>
 </div>
 <hr>
 
