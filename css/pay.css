@@ -10,14 +10,6 @@ h1{
 	font-size: 25px;
 	/* text-shadow: 2px 2px 5px gold; */
 }
-
-h1 a{
-	color: rgb(9, 190, 214);
-}
-
-h1.b{
-	color:black;
-}
 button{
 	display: inline-block; 
 	border-radius: 45px;
@@ -69,20 +61,6 @@ a{
 .a{
 	width: 100%;
 	background: #00000063;
-}
-
-.ee{
-	margin-left: 88%;
-	color: aliceblue;
-}
-
-.de{
-	margin-left: 64%;
-
-}
-
-.bb{
-	margin-left: 60%;
 }
 
 .h{
