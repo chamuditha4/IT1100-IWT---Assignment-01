@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <script type="text/javascript" src="../js/cardpay.js"></script>
-<script>
-function validateForm() {
-  var x = document.forms["myForm"]["fname"].value;
-  if (x == "") {
-    alert("Name must be filled out");
-    return false;
-  }
-}
-</script>
+  <head>
+    <script type="text/javascript" src="../js/cardpay.js"></script>
+  </head>
+  <body>
+
+    <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+      Name: <input type="text" name="fname">
+      <input type="submit" value="Submit">
+    </form>
+
+  </body>
 </html>
+
