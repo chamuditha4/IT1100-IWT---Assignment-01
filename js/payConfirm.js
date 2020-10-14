@@ -13,7 +13,7 @@ function PayPaypal() {
     var txt;
     var r = confirm("Do you Want to Pay via Card?");
     if (r == true) {
-        location.replace("Recevied.html")
+        location.replace("card pay.html")
     } else {
         location.replace("Employer dashboard.html")
     }
