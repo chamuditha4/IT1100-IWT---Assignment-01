@@ -5,6 +5,9 @@
   </head>
 
   <body>
+
+    <h1>Please Enter Your Credentials Correctly</h1>
+
     <form action="/action_page.php">
       
       <label for="fname">First name:</label><br>
@@ -13,14 +16,22 @@
       <label for="lname">Last name:</label><br>
       <input type="text" id="lname" name="lname"><br><br>
       
-      <label for="fname">Full name:</label><br>
-      <input type="text" id="funame" name="funame" size="50"><br><br>
+      <label for="fname">ID:</label><br>
+      <input type="text" id="IDno" name="IDno" size="10"><br><br>
 
       <label for="email">Email:</label><br>
       <input type="email" id="email" name="email" autocomplete="off"><br><br>
 
       <label for="phone">Enter a phone number:</label><br>
       <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+
+      <label for="card">Choose your card:</label><br>
+      <input type="radio" id="credit card" name="Choose your card" value="Credit card">
+      <label for="Credit card">Credit card</label><br>
+      <input type="radio" id="Debit card" name="Choose your card" value="Debit card">
+      <label for="Debit card">Debit card</label><br>
+      <input type="radio" id="Visa card" name="Choose your card" value="Visa card">
+      <label for="Visa card">Visa card</label><br><br>
 
       <label for="pin">Card Number:</label><br>
       <input type="text" id="pin" name="pin" maxlength="16" size="16"><br><br>
