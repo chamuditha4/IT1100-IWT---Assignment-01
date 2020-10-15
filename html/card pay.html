@@ -32,11 +32,20 @@
       <label for="Debit card">Debit card</label><br>
       <input type="radio" id="Visa card" name="Choose your card" value="Visa card">
       <label for="Visa card">Visa card</label><br><br>
-
+      
+      <label for="bank">Expire Date Of The Card:</label><br>
+      <button onclick = "BOC()" >Bank Of Ceylon</button>
+      <button onclick = "COM()" >Commercial Bank</button>
+      <button onclick = "HNB()" >Hatton national Bank</button>
+      <button onclick = "PB()">Peoples Bank</button>
+      <button onclick = "NSB()">National Saving Bank</button>
+      <button onclick = "RDB()">Rural Development Bank</button>
+      <button onclick = "SB()">Sampath Bank</button><br><br>
+      
       <label for="pin">Card Number:</label><br>
       <input type="text" id="pin" name="pin" maxlength="16" size="16"><br><br>
 
-      <label for="Month">Expire Date Of The Card:</label><br>
+      <label for="Month">Choose your bank:</label><br>
       <select name="Month" id="Month">
       <option value="1">January</option>
       <option value="2">February</option>
@@ -65,7 +74,7 @@
       <option value="11">2030</option>
       <option value="12">2031</option>
       </select><br><br>
-      
+
       <label for="pin">CVV:</label><br>
       <input type="text" id="pin" name="pin" maxlength="3" size="3"><br><br>
       <input type="submit" value="Submit">
