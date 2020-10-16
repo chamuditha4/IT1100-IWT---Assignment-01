@@ -11,5 +11,5 @@ $db = new mysqli($servername, $username, $password, $database);
 if ($db->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
-
+//
 ?>
