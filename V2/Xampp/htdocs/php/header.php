@@ -11,7 +11,7 @@
      </div>
      <nav>
        <ul>
-         <li><a href="home.html">Home</a></li>
+         <li><a href="home.php">Home</a></li>
          <li><a href="#">Job Portal</a>
            <ul>
              <li><a href="Login.html">Explore Jobs</a></li>
