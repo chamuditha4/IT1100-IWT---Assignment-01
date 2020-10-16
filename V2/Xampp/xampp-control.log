@@ -1,0 +1,19 @@
+3:14:02 AM  [main] 	Initializing Control Panel
+3:14:02 AM  [main] 	Windows Version: Windows Server 2012 R2  64-bit
+3:14:02 AM  [main] 	XAMPP Version: 7.2.34
+3:14:02 AM  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+3:14:02 AM  [main] 	Running with Administrator rights - good!
+3:14:02 AM  [main] 	XAMPP Installation Directory: "c:\users\administrator\documents\it1100-iwt---assignment-01\v2\xampp\"
+3:14:02 AM  [main] 	Checking for prerequisites
+3:14:06 AM  [main] 	All prerequisites found
+3:14:06 AM  [main] 	Initializing Modules
+3:14:06 AM  [main] 	Starting Check-Timer
+3:14:06 AM  [main] 	Control Panel Ready
+3:14:08 AM  [Apache] 	Attempting to start Apache app...
+3:14:08 AM  [Apache] 	Status change detected: running
+3:14:11 AM  [Apache] 	Attempting to stop Apache (PID: 1036)
+3:14:11 AM  [Apache] 	Attempting to stop Apache (PID: 936)
+3:14:12 AM  [Apache] 	Status change detected: stopped
+3:14:19 AM  [main] 	Deinitializing Modules
+3:14:19 AM  [main] 	Deinitializing Control Panel
+
