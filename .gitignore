@@ -1,0 +1,13 @@
+
+V2/Xampp/apache/logs/error.log
+V2/Xampp/apache/logs/access.log
+V2/Xampp/apache/logs/httpd.pid
+V2/Xampp/apache/logs/ssl_request.log
+V2/Xampp/mysql/data/ib_logfile0
+V2/Xampp/mysql/data/ib_logfile0
+V2/Xampp/mysql/data/ib_logfile0
+V2/Xampp/mysql/data/ibtmp1
+*.pid
+V2/Xampp/mysql/data/ib_logfile0
+*.log
+*.MAD
