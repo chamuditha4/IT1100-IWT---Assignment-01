@@ -97,3 +97,13 @@
 [Fri Oct 16 20:10:40.469825 2020] [ssl:warn] [pid 468:tid 580] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 [Fri Oct 16 20:10:40.530654 2020] [ssl:warn] [pid 468:tid 580] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 [Fri Oct 16 20:10:40.556586 2020] [mpm_winnt:notice] [pid 468:tid 580] AH00354: Child: Starting 150 worker threads.
+[Fri Oct 16 20:26:51.171403 2020] [ssl:warn] [pid 1384:tid 596] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 16 20:26:51.218267 2020] [core:warn] [pid 1384:tid 596] AH00098: pid file C:/IT1100-IWT---Assignment-01/V2/Xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Oct 16 20:26:51.218267 2020] [ssl:warn] [pid 1384:tid 596] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 16 20:26:51.249545 2020] [mpm_winnt:notice] [pid 1384:tid 596] AH00455: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.2.34 configured -- resuming normal operations
+[Fri Oct 16 20:26:51.249545 2020] [mpm_winnt:notice] [pid 1384:tid 596] AH00456: Apache Lounge VC15 Server built: Aug  4 2020 11:50:23
+[Fri Oct 16 20:26:51.249545 2020] [core:notice] [pid 1384:tid 596] AH00094: Command line: 'c:\\it1100-iwt---assignment-01\\v2\\xampp\\apache\\bin\\httpd.exe -d C:/IT1100-IWT---Assignment-01/V2/Xampp/apache'
+[Fri Oct 16 20:26:51.249545 2020] [mpm_winnt:notice] [pid 1384:tid 596] AH00418: Parent: Created child process 5220
+[Fri Oct 16 20:26:51.780637 2020] [ssl:warn] [pid 5220:tid 568] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 16 20:26:51.827533 2020] [ssl:warn] [pid 5220:tid 568] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 16 20:26:51.858742 2020] [mpm_winnt:notice] [pid 5220:tid 568] AH00354: Child: Starting 150 worker threads.
