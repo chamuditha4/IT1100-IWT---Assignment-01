@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="../js/cardpay.js"></script>
+  </head>
+
+  <body>
+
+    <h1>Please Enter Your Credentials Correctly</h1>
+
+    <form action="/action_page.php">
+      
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname"><br><br>
+      
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname"><br><br>
+      
+      <label for="fname">ID:</label><br>
+      <input type="text" id="IDno" name="IDno" size="10"><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" autocomplete="off"><br><br>
+
+      <label for="phone">Enter a phone number:</label><br>
+      <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+
+      <label for="card">Choose your card:</label><br>
+      <input type="radio" id="credit card" name="Choose your card" value="Credit card">
+      <label for="Credit card">Credit card</label><br>
+      <input type="radio" id="Debit card" name="Choose your card" value="Debit card">
+      <label for="Debit card">Debit card</label><br>
+      <input type="radio" id="Visa card" name="Choose your card" value="Visa card">
+      <label for="Visa card">Visa card</label><br><br>
+      
+      <label for="bank">Choose your Card:</label><br>
+      <button onclick = "BOC()" >Bank Of Ceylon</button>
+      <button onclick = "COM()" >Commercial Bank</button>
+      <button onclick = "HNB()" >Hatton national Bank</button>
+      <button onclick = "PB()">Peoples Bank</button>
+      <button onclick = "NSB()">National Saving Bank</button>
+      <button onclick = "RDB()">Rural Development Bank</button>
+      <button onclick = "SB()">Sampath Bank</button><br><br>
+      
+      <label for="pin">Card Number:</label><br>
+      <input type="text" id="pin" name="pin" maxlength="16" size="16"><br><br>
+
+      <label for="Month">Expire Date Of The Card:</label><br>
+      <select name="Month" id="Month">
+      <option value="1">January</option>
+      <option value="2">February</option>
+      <option value="3">March</option>
+      <option value="4">April</option>
+      <option value="5">May</option>
+      <option value="6">June</option>
+      <option value="7">July</option>
+      <option value="8">August</option>
+      <option value="9">September</option>
+      <option value="10">Octomber</option>
+      <option value="11">November</option>
+      <option value="12">December</option>
+      </select>
+      <select name="Month" id="Month">
+      <option value="1">2021</option>
+      <option value="2">2022</option>
+      <option value="3">2023</option>
+      <option value="4">2024</option>
+      <option value="5">2025</option>
+      <option value="6">2026</option>
+      <option value="7">2027</option>
+      <option value="8">2028</option>
+      <option value="9">2029</option>
+      <option value="10">2030</option>
+      <option value="11">2031</option>
+      <option value="12">2032</option>
+      </select><br><br>
+
+      <label for="pin">CVV:</label><br>
+      <input type="text" id="pin" name="pin" maxlength="3" size="3"><br><br>
+      <input type="submit" value="Submit">
+    
+    </form>
+  </body>
+</html>

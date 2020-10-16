@@ -1,0 +1,57 @@
+ol li{
+    font-family: 'Ubuntu', sans-serif;
+    color:white;
+    font-size: 20px;
+    margin-left: 10%;
+    color: #f9fbfcc9;
+}
+
+h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:40px;
+    color: #f9fbfc;
+    padding: 1%;
+    margin-left: 5%;
+    }
+h2{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:29px;
+    
+    color: #fafafaea;
+    padding: 1%;
+    margin-left: 7%;
+    }
+
+.btn{
+    margin-top: 0 auto;
+    margin-left: 6.4%;
+    
+}
+
+a{
+    margin-top: 0 auto;
+}
+.copy{
+    font-family: 'Ubuntu', sans-serif;
+    text-align:center;
+    color: #e2f3eebd;
+    font-size:13px;
+    margin-bottom: 3%;
+}
+footer{
+    margin-top: 10%;
+    padding: 1%;
+    background-color: #000000b8;
+}
+.copy{
+    font-family: 'Ubuntu', sans-serif;
+    text-align:center;
+    color: #e2f3eebd;
+    font-size:13px;
+    margin-bottom: 1%;
+}
+.grmem{
+    padding-top: 4%;
+    padding-bottom: 4%;
+    background-color: #2c2c2c54;
+}
