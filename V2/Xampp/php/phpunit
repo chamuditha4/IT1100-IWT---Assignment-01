@@ -1,4 +1,4 @@
-#!C:\Users\Administrator\Documents\IT1100-IWT---Assignment-01\V2\Xampp\php\.\php.exe
+#!C:\IT1100-IWT---Assignment-01\V2\Xampp\php\.\php.exe
 <?php
 /* PHPUnit
  *
@@ -37,10 +37,10 @@
 
 define('PHPUnit_MAIN_METHOD', 'PHPUnit_TextUI_Command::main');
 
-if (strpos('C:\Users\Administrator\Documents\IT1100-IWT---Assignment-01\V2\Xampp\php\.\php.exe', '@php_bin') === 0) {
+if (strpos('C:\IT1100-IWT---Assignment-01\V2\Xampp\php\.\php.exe', '@php_bin') === 0) {
     require dirname(__FILE__) . DIRECTORY_SEPARATOR . 'PHPUnit' . DIRECTORY_SEPARATOR . 'Autoload.php';
 } else {
-    require 'C:\Users\Administrator\Documents\IT1100-IWT---Assignment-01\V2\Xampp\php\pear' . DIRECTORY_SEPARATOR . 'PHPUnit' . DIRECTORY_SEPARATOR . 'Autoload.php';
+    require 'C:\IT1100-IWT---Assignment-01\V2\Xampp\php\pear' . DIRECTORY_SEPARATOR . 'PHPUnit' . DIRECTORY_SEPARATOR . 'Autoload.php';
 }
 
 PHPUnit_TextUI_Command::main();

@@ -40,7 +40,7 @@ goto endofperl
 @rem ';
 #!perl
 #line 43
-    eval 'exec C:\Users\Administrator\Documents\IT1100-IWT---Assignment-01\V2\Xampp\perl\bin\perl.exe -S $0 ${1+"$@"}'
+    eval 'exec C:\IT1100-IWT---Assignment-01\V2\Xampp\perl\bin\perl.exe -S $0 ${1+"$@"}'
 	if $running_under_some_shell;
 
 my $config_tag1 = '5.32.0 - Sun Aug  2 19:47:17 2020';

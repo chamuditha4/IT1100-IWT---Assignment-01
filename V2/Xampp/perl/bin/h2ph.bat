@@ -26,7 +26,7 @@ goto endofperl
 @rem ';
 #!perl
 #line 29
-    eval 'exec C:\Users\Administrator\Documents\IT1100-IWT---Assignment-01\V2\Xampp\perl\bin\perl.exe -S $0 ${1+"$@"}'
+    eval 'exec C:\IT1100-IWT---Assignment-01\V2\Xampp\perl\bin\perl.exe -S $0 ${1+"$@"}'
 	if $running_under_some_shell;
 
 BEGIN { pop @INC if $INC[-1] eq '.' }

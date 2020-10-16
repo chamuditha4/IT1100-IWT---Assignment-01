@@ -84,7 +84,7 @@ sub AUTOLOAD {
 
 # tie returns the object, so the value returned to require will be true.
 tie %Config, 'Config', {
-    archlibexp => 'C:\\Users\\Administrator\\Documents\\IT1100-IWT---Assignment-01\\V2\\Xampp\\perl\\lib',
+    archlibexp => 'C:\\IT1100-IWT---Assignment-01\\V2\\Xampp\\perl\\lib',
     archname => 'MSWin32-x64-multi-thread',
     cc => 'gcc',
     d_readlink => undef,
@@ -96,14 +96,14 @@ tie %Config, 'Config', {
     inc_version_list => '',
     intsize => '4',
     ldlibpthname => '',
-    libpth => 'C:\\Users\\Administrator\\Documents\\IT1100-IWT---Assignment-01\\V2\\Xampp\\c\\lib \\xampp\\c\\x86_64-w64-mingw32\\lib \\xampp\\c\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0',
+    libpth => 'C:\\IT1100-IWT---Assignment-01\\V2\\Xampp\\c\\lib \\xampp\\c\\x86_64-w64-mingw32\\lib \\xampp\\c\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0',
     osname => 'MSWin32',
     osvers => '10.0.19041.388',
     path_sep => ';',
-    privlibexp => 'C:\\Users\\Administrator\\Documents\\IT1100-IWT---Assignment-01\\V2\\Xampp\\perl\\lib',
-    scriptdir => 'C:\\Users\\Administrator\\Documents\\IT1100-IWT---Assignment-01\\V2\\Xampp\\perl\\bin',
-    sitearchexp => 'C:\\Users\\Administrator\\Documents\\IT1100-IWT---Assignment-01\\V2\\Xampp\\perl\\site\\lib',
-    sitelibexp => 'C:\\Users\\Administrator\\Documents\\IT1100-IWT---Assignment-01\\V2\\Xampp\\perl\\site\\lib',
+    privlibexp => 'C:\\IT1100-IWT---Assignment-01\\V2\\Xampp\\perl\\lib',
+    scriptdir => 'C:\\IT1100-IWT---Assignment-01\\V2\\Xampp\\perl\\bin',
+    sitearchexp => 'C:\\IT1100-IWT---Assignment-01\\V2\\Xampp\\perl\\site\\lib',
+    sitelibexp => 'C:\\IT1100-IWT---Assignment-01\\V2\\Xampp\\perl\\site\\lib',
     so => 'dll',
     useithreads => 'define',
     usevendorprefix => 'define',
