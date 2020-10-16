@@ -20,7 +20,7 @@
            </ul>
          </li>
          <li><a href="Map.html">Find Us</a></li>
-         <li><a href="about us.html" class="active">About Us</a>
+         <li><a href="about us.html">About Us</a>
            <ul>
              <li><a href="about%20us.html#aboutsec">Our Story</a></li>
              <li><a href="about%20us.html#missionpa">Our Mission</a></li>
