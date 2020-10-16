@@ -1,0 +1,91 @@
+h1{
+		font-weight: bold;
+		font-size: italic;
+		font-size: 32px;
+		color: black;
+		text-align: center;
+}
+dl.a{
+		text-shadow: 2px 2px 5px red;
+		font-weight: bold;
+		font-size: italic;
+		font-size: 32px;
+		color: white;
+		text-align: left;
+}
+dl.b{
+		text-shadow: 2px 2px 5px red;
+		font-weight: bold;
+		font-size: italic;
+		font-size: 32px;
+		color: white;
+		text-align: right;
+}
+body
+{
+	background-image:url("../images/f.jpg");
+	background-position: top;
+	background-repeat: no-repeat;
+  padding: 15px;
+  background-attachment: fixed;
+}
+button {
+  border: none;
+  color: white;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-left: 1600px;
+}
+button {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+
+button:hover {
+  background-color: #555555;
+  color: white;
+  text-shadow: 6px 6px 10px gold;
+}
+
+.copy{
+    font-family: 'Ubuntu', sans-serif;
+    text-align:center;
+    color: #e2f3eebd;
+    font-size:13px;
+    margin-bottom: 3%;
+}
+
+footer{
+  margin-top: 10%;
+  padding: 1%;
+  background-color: #000000b8;
+}
+.copy{
+  font-family: 'Ubuntu', sans-serif;
+  text-align:center;
+  color: #e2f3eebd;
+  font-size:13px;
+  margin-bottom: 1%;
+}
+
+.social{
+  margin-left: 5%;
+  margin-right: 10%;
+
+}
+
+.contactuslogo{
+  display:block;
+  width:40px;
+  height: 40px;
+  display : inline-block;
+  margin-right: 2%;
+
+}
