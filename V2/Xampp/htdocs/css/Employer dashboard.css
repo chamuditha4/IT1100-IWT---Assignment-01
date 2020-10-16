@@ -25,9 +25,13 @@ h2{
   margin: 10% 37% 10% 37%;
 }
 
-p{
+td{
   font-size: large;
   font-weight: bold;
+}
+
+.ptd{
+  width: 30%;
 }
 
 button{

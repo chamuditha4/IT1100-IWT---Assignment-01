@@ -235,6 +235,7 @@ img
 .slideshow-container img{
 
     border-radius: 10px;
+    opacity: 0.8;
 }
 
 /*
