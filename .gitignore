@@ -3,12 +3,19 @@ V2/Xampp/apache/logs/error.log
 V2/Xampp/apache/logs/access.log
 V2/Xampp/apache/logs/httpd.pid
 V2/Xampp/apache/logs/ssl_request.log
-
+V2/Xampp/mysql/data/ib_logfile0
+V2/Xampp/mysql/data/ib_logfile0
+V2/Xampp/mysql/data/ib_logfile0
+V2/Xampp/mysql/data/ibtmp1
 *.pid
-
+V2/Xampp/mysql/data/ib_logfile0
 *.log
 
-
+V2/Xampp/mysql/data/ib_logfile0
+V2/Xampp/mysql/data/ib_logfile0
+V2/Xampp/mysql/data/ibdata1
+V2/Xampp/mysql/data/ibtmp1
+V2/Xampp/mysql/data/mysql/db.MAD
 V2/Xampp/mysql/data/phpmyadmin/pma__userconfig.ibd
 V2/Xampp/phpMyAdmin/tmp/twig/20/20373bc15b0050af3ef4333af7467fd97721b785f7dc2a53b6bc7e9543655a42.php
 V2/Xampp/phpMyAdmin/tmp/twig/3b/3bf0735ad26af7a7a8a5988cb0fab93de7a041a6980f76c6052bbb5ad061dd52.php
@@ -30,6 +37,6 @@ V2/Xampp/phpMyAdmin/tmp/twig/fd/fd6d8d3f1657544baf0b0c73733e9ba8526b1c1bf2ab517a
 V2/Xampp/tmp/sess_610682dlcv562o9m8odd1qkd6f
 V2/Xampp/phpMyAdmin/tmp/twig/fa/faad1f638897d5863a03e9344fe431e69cfb41b929030a8564a069dd2335e3b8.php
 V2/Xampp/phpMyAdmin/tmp/twig/98/9861a4af702776693377a9256543b968fd68f70054bc21503c01c4e2fda9c9c7.php
-
+V2/Xampp/mysql/data/phpmyadmin/pma__userconfig.ibd
 V2/Xampp/phpMyAdmin/tmp/twig/1b/1b7062df70f6fd9896e4a5d8c9db106bfc05a1c154ab561e2b6985e9dc1ab8d0.php
 V2/Xampp/phpMyAdmin/tmp/*
