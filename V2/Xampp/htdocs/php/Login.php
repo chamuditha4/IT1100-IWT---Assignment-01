@@ -1,3 +1,4 @@
+<?php include 'Auth.php';?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,7 +16,7 @@
     <!-- End Header -->
     
     <div class="center">
-        <form onsubmit="return myFunction(this)">
+        <form method="post" action="Login.php">
             <label for="uname">Username:</label><br>
             <input type="text" id="uname" name="uname" value="" required><br>
             <label for="pwd">Password:</label><br>
@@ -29,7 +30,7 @@
             <input type="radio" name="radio" id="Jobseekerrad" required>
             <span class="checkmark"></span>
             </label>
-            <input id = "Signin" type="submit" value="Submit">
+            <input id = "Signin" type="submit" value="Submit" name="user_login">
         </form>
     </div>
     
