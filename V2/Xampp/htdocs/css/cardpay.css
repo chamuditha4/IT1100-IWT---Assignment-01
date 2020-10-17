@@ -5,22 +5,30 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-h1{
+.a{
+    background: #00000063;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.topic{
     color: whitesmoke;
     font-size:30px;
     font-style: unset;
     text-align: center;
-}
-.a{
-    font-family: 'Ubuntu', sans-serif;
-    font-size:20px;
-    color: beige;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 .b{
     font-family: 'Ubuntu', sans-serif;
     font-size:20px;
     color: beige;
 }
+.c{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:20px;
+    color: beige;
+}
 .box{
+    background: #92909063;
     
 }
