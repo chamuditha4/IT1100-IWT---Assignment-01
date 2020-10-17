@@ -4,11 +4,18 @@ include 'config.php';
 
 $username = "";
 $name = "";
+$role = "";
+$country = "";
 $email = "";
+$bio = "";
 $errors = array(); 
 
 if (isset($_POST['user_register'])) {
     // receive all input values from the form
+    $bio = mysqli_real_escape_string($db, $_POST['bio']);
+    $role = mysqli_real_escape_string($db, $_POST['acctype']);
+    $name = mysqli_real_escape_string($db, $_POST['name']);
+    $country = mysqli_real_escape_string($db, $_POST['country']);
     $username = mysqli_real_escape_string($db, $_POST['uname']);
     $email = mysqli_real_escape_string($db, $_POST['email']);
     $password_1 = mysqli_real_escape_string($db, $_POST['password']);
@@ -42,8 +49,8 @@ if (isset($_POST['user_register'])) {
     if (count($errors) == 0) {
         $password = md5($password_1);//encrypt the password before saving in the database
   
-        $query = "INSERT INTO users (username, email, password) 
-                  VALUES('$username', '$email', '$password')";
+        $query = "INSERT INTO users (bio, role, country, name, username, email, password) 
+                  VALUES('$bio', '$role', '$country', '$name', '$username', '$email', '$password')";
         mysqli_query($db, $query);
         $_SESSION['username'] = $username;
         $_SESSION['success'] = "You are now logged in";

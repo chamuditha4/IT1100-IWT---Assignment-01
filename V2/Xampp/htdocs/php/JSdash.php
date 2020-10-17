@@ -43,7 +43,7 @@
     <?php  if (isset($_SESSION['username'])) : ?>
     	<hr>
         <div class="navvv">
-            <h1> <a href="home.html"> Home </a> >Dashboard </h1>
+            <h1> <a href="home.php"> Home </a> >Dashboard </h1>
         </div>
         <form class="search" action="Search jobs.html">
         <input type="text" placeholder="Search.." name="search">
@@ -53,12 +53,11 @@
         <div class="prof">
             <img src="../images/user.png" id="dp">
             <table>
-                <tr>  <td class="ptd">Name</td> <td><?php echo $row["name"]; ?></td> </tr>
-                <tr>  <td class="ptd">BetterJobsID</td> <td><?php echo $row["id"]; ?></td> </tr>
-                <tr>  <td class="ptd">Email</td> <td><?php echo $row["email"]; ?></td> </tr>
-                <tr>  <td class="ptd">Country</td> <td>Sri Lanka</td> </tr>
-                <tr>  <td class="ptd">Age</td> <td>7</td> </tr>
-                <tr>  <td class="ptd">Skills</td> <td>Photography, Logo Design, Photoshop, Illustrator</td> </tr>
+                <tr>  <td class="ptd">Name: </td> <td><?php echo $row["name"]; ?></td> </tr>
+                <tr>  <td class="ptd">BetterJobsID: </td> <td><?php echo $row["id"]; ?></td> </tr>
+                <tr>  <td class="ptd">Email: </td> <td><?php echo $row["email"]; ?></td> </tr>
+                <tr>  <td class="ptd">Country: </td> <td><?php echo $row["country"]; ?></td> </tr>
+                <tr>  <td class="ptd">Bio: </td> <td><?php echo $row["Bio"]; ?></td> </tr>
             </table>
         </div>
         <div class="seekerb">
