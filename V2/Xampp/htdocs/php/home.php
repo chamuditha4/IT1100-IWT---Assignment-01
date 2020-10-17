@@ -17,25 +17,25 @@
 
     <div class="slideshow-container" >
 
-<div class="mySlides">
-  <div class="numbertext">1 / 3</div>
-  <img src="../images/slide1.jpg" style="width:100%">
-  <div class="text">MAKE MONEY</div>
-</div>
+      <div class="mySlides">
+        <div class="numbertext">1 / 3</div>
+        <img src="../images/slide1.jpg" style="width:100%">
+        <div class="text">MAKE MONEY</div>
+      </div>
 
-<div class="mySlides">
-  <div class="numbertext">2 / 3</div>
-  <img src="../images/slide2.jpg" style="width:100%">
-  <div class="text">SEARCH JOBS</div>
-</div>
+      <div class="mySlides">
+        <div class="numbertext">2 / 3</div>
+        <img src="../images/slide2.jpg" style="width:100%">
+        <div class="text">SEARCH JOBS</div>
+      </div>
 
-<div class="mySlides">
-  <div class="numbertext">3 / 3</div>
-  <img src="../images/slide3.jpg" style="width:100%">
-  <div class="text">WORK FROM HOME</div>
-</div>
+      <div class="mySlides">
+        <div class="numbertext">3 / 3</div>
+        <img src="../images/slide3.jpg" style="width:100%">
+        <div class="text">WORK FROM HOME</div>
+      </div>
 
-</div>
+    </div>
 <br>
 
 <div style="text-align:center">
