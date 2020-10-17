@@ -17,7 +17,7 @@
         <img id="user" src="../images/user.png">
         <h1 id="use"><?php echo $_SESSION['username']; ?></h1> 
         <button class="logout" onclick="location.href='Edash.php?logout=1'">Logout </a></button>
-        <button class="logout"  onclick="return switching_e()">To JobSeeker</a></button>
+        
     </div>
 </body>
 </html>

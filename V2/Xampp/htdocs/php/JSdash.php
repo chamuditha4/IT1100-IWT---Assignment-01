@@ -1,11 +1,20 @@
 <?php 
   session_start(); 
   include 'config.php';
+  $role="";
   $uname = $_SESSION['username'];
   $sql = "SELECT * FROM users WHERE username='$uname'";
   $result = $db->query($sql);
   $row = $result->fetch_assoc();
-  echo $row["id"] ;
+  $role = $row["role"];
+
+  if ($role == 'JobSeeker'){
+    //header('location: login.php');
+  }
+  else{
+    header('location: Edash.php');
+  }
+  //echo $row["id"] ;
     
   if (!isset($_SESSION['username'])) {
   	$_SESSION['msg'] = "You must log in first";
