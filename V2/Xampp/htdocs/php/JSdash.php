@@ -61,16 +61,11 @@
                 <tr>  <td class="ptd">Skills</td> <td>Photography, Logo Design, Photoshop, Illustrator</td> </tr>
             </table>
         </div>
-        <div class="tools">
-            <button type="button" onclick="Messageerr()">Delete vacancies</button><br>
-            <button type="button" onclick="Messageerr()">Add vacancies</button><br>
-            <button type="button" onclick="Messageerr()">Edit vacancies</button><br>
-            <button type="button" onclick="Messageerr()">Approve CV</button><br>
-            <button type="button" onclick="Messageerr()">Provide feedback on submited content</button><br>
-            <a href="pay.html"> <button type="button">Pay employee</button><br></a>
-            <a href="report.html"><button type="button">Report employer/job seeker</button><br></a>
-            <button type="button" onclick="Messageerr()">View submited forms</button><br>
-        </div> 
+        <div class="seekerb">
+            <a href="report.html"><button class="jsd_btn" >Report Employer / Job seeker</button></a><br>
+            <button class="jsd_btn" onclick="Messageerr()">Completed Jobs</button><br>
+            <button class="jsd_btn" onclick="Messageerr()">Submit finished Work</button>
+        </div>
 </div>
         <?php
         

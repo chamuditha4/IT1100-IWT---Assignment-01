@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="../css/Employer dashboard.css">
+    <link rel="stylesheet" href="../css/jobseeker.css">
     <link rel="stylesheet" href="../css/search.css">
     <script type="text/javascript" src="../js/logoutConfirm.js"></script>
     <script type="text/javascript" src="../js/switch.js"></script>
