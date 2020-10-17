@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="../css/home.css">
+    <script type="text/javascript" src="../js/Date&Time.js"></script>
 </head>
 <body>
 <div >

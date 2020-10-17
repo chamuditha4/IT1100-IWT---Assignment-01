@@ -3,8 +3,6 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Online Job Portal</title>
-  <link rel="stylesheet" href="../css/home.css">
-  <script type="text/javascript" src="../js/Date&Time.js"></script>
   <script type="text/javascript" src="../js/slide.js"></script>
 </head>
 <body onload="showSlides()">

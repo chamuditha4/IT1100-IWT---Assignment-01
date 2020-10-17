@@ -5,10 +5,8 @@
 	<meta charset="UTF-8">
 	<title>Online Job Portal | Register </title>
     <link rel="stylesheet" href="../css/dashoboard-nav.css">
-    <link rel="stylesheet" href="../css/home.css">
     <link rel="stylesheet" href="../css/login_style.css">
     <script type="text/javascript" src="../js/loginej.js"></script>
-    <script type="text/javascript" src="../js/Date&Time.js"></script>
     <script type="text/javascript" src="../js/Validate.js"></script>
 </head>
 <body>
