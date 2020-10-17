@@ -32,3 +32,7 @@ body{
     background: #92909063;
     
 }
+button:hover {
+    background-color: #e4aa3faf;
+    color: rgb(252, 247, 252);
+}
