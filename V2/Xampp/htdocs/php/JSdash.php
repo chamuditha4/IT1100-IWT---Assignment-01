@@ -29,7 +29,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Home</title>
+	<title>Job Seeker Dashboard</title>
 	
 </head>
 <body>
