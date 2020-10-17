@@ -119,3 +119,13 @@
 [Sat Oct 17 07:40:41.095958 2020] [mpm_winnt:notice] [pid 21440:tid 508] AH00354: Child: Starting 150 worker threads.
 [Sat Oct 17 08:35:49.377159 2020] [php7:error] [pid 21440:tid 1812] [client ::1:51226] script 'C:/IT1100-IWT---Assignment-01/V2/Xampp/htdocs/php/index.php' not found or unable to stat, referer: http://localhost/php/Edash.php
 [Sat Oct 17 08:51:07.274949 2020] [php7:notice] [pid 21440:tid 1812] [client ::1:51406] PHP Notice:  Undefined index: balance in C:\\IT1100-IWT---Assignment-01\\V2\\Xampp\\htdocs\\php\\Edash.php on line 40, referer: http://localhost/php/login.php
+[Sat Oct 17 09:14:02.978324 2020] [ssl:warn] [pid 15744:tid 696] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Oct 17 09:14:03.154618 2020] [core:warn] [pid 15744:tid 696] AH00098: pid file C:/IT1100-IWT---Assignment-01/V2/Xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Oct 17 09:14:03.159628 2020] [ssl:warn] [pid 15744:tid 696] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Oct 17 09:14:03.856419 2020] [mpm_winnt:notice] [pid 15744:tid 696] AH00455: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 17 09:14:03.856419 2020] [mpm_winnt:notice] [pid 15744:tid 696] AH00456: Apache Lounge VC15 Server built: Aug  4 2020 11:50:23
+[Sat Oct 17 09:14:03.856419 2020] [core:notice] [pid 15744:tid 696] AH00094: Command line: 'c:\\it1100-iwt---assignment-01\\v2\\xampp\\apache\\bin\\httpd.exe -d C:/IT1100-IWT---Assignment-01/V2/Xampp/apache'
+[Sat Oct 17 09:14:03.879617 2020] [mpm_winnt:notice] [pid 15744:tid 696] AH00418: Parent: Created child process 49740
+[Sat Oct 17 09:14:05.383090 2020] [ssl:warn] [pid 49740:tid 656] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Oct 17 09:14:05.482120 2020] [ssl:warn] [pid 49740:tid 656] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Oct 17 09:14:05.524192 2020] [mpm_winnt:notice] [pid 49740:tid 656] AH00354: Child: Starting 150 worker threads.
