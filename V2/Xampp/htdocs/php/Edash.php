@@ -56,7 +56,7 @@
             </table>
         </div>
         <div class="tools">
-            <button type="button" onclick="Messageerr()">Delete vacancies</button><br>
+            <button type="button" onclick="location.href='deleteVacancy.php'">Delete vacancies</button><br>
             <button type="button" onclick="location.href='addVacancy.php'">Add vacancies</button><br>
             <button type="button" onclick="Messageerr()">Edit vacancies</button><br>
             <button type="button" onclick="Messageerr()">Approve CV</button><br>

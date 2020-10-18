@@ -2,13 +2,19 @@
   session_start(); 
   include 'config.php';
   include 'Vauth.php';
+// USER
   $role="";
   $uname = $_SESSION['username'];
   $sql = "SELECT * FROM users WHERE username='$uname'";
   $result = $db->query($sql);
   $row = $result->fetch_assoc();
   $role = $row["role"];
+  $uid = $row["id"];
+  $db->close();
+//
+// Vacancies 
 
+//
   if ($role == 'JobSeeker'){
     header('location: JSdash.php');
   }
@@ -30,8 +36,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> Add Vacancies </title>
-    <script type="text/javascript" src="../js/TotalPayment.js"></script>
+	<title> Delete Vacancies </title>
     <style>
         
         input::-webkit-outer-spin-button,
@@ -54,22 +59,11 @@
     <?php  if (isset($_SESSION['username'])) : ?>
     	<hr>
         <div class="navvv">
-            <h1> <a href="home.php"> Home </a> > <a href="Edash.php"> Dashboard </a>> Add Vacancies </h1>
+            <h1> <a href="home.php"> Home </a> > <a href="Edash.php"> Dashboard </a>> Delete Vacancies </h1>
         </div>
         
         <div class="prof" style="margin-left:25%; padding-bottom:10px; padding-top:10px;">
-        <form method="post" action="addVacancy.php">
-                <label for="title">Title</label><br>
-                <input type="text" id="title" name="title" value="" size="54"><br><br>
-                <label for="des">Description</label><br>
-                <textarea id="des" name="des" rows="4" cols="50"></textarea><br><br>
-                <label for="skills">Skills required</label><br>
-                <textarea id="skills" name="skills" rows="2" cols="50"></textarea><br><br>
-                <label for="pyment">Payment for the Work</label><br>
-                <input type="number" id="pyment" name="pyment" min="1" style="width: 4em" value="1" onkeyup="calctotal()"><label> LKR</label><br><br>
-                <label>Total: </label><label id="total">1</label><label> LKR</label><br><br>
-                <input type="submit" value="ADD" name="AddVacancy">
-            </form> 
+        
         </div>
         
         
