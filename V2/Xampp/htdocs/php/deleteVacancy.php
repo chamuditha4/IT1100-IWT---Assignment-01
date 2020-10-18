@@ -14,7 +14,7 @@
 //
 // Vacancies 
 
-    $Vsql = "SELECT * FROM vacancies WHERE uid='$uid'";
+    $Vsql = "SELECT * FROM vacancie WHERE uid='$uid'";
     $resultV = $db->query($Vsql);
     
     
@@ -42,16 +42,20 @@
 <head>
 	<title> Delete Vacancies </title>
     <style>
-        
-        input::-webkit-outer-spin-button,
-        input::-webkit-inner-spin-button {
-        -webkit-appearance: none;
-        margin: 0;
+        table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
         }
 
-        
-        input[type=number] {
-        -moz-appearance: textfield;
+        td, th {
+        border: 1px solid #dddddd;
+        text-align: center;
+        padding: 8px;
+        }
+
+        tr:nth-child(even) {
+        background-color: #dddddd;
         }
     </style>
 </head>
@@ -67,16 +71,35 @@
         </div>
         
         <div class="prof" style="margin-left:25%; padding-bottom:10px; padding-top:10px;">
+
+            <table>
+                <tr>
+                    <th>ID</th>
+                    <th>TITLE</th>
+                    <th>DESCRIPTION</th>
+                    <th>SKILLS REQUIRED</th>
+                    <th>PAYMENT</th>
+                    <th>ACTION</th>
+                </tr>
+            
             <?php
                 if ($resultV->num_rows > 0) {
                     while($rowV = $resultV->fetch_assoc()) {
-                        echo "id: " . $rowV["id"]."<br>";
+                        echo "<tr><td>" . $rowV["id"]."</td>";
+                        echo "<td>" . $rowV["title"]."</td>";
+                        echo "<td>" . $rowV["description"]."</td>";
+                        echo "<td>" . $rowV["skills"]."</td>";
+                        echo "<td>" . $rowV["payment"]." LKR</td>";
+                        echo "<td> <a href='delete.php?id=$rowV[id]'><img src='../images/delete.png'> </td></tr>";
                     } 
+                    echo "</table>";
                 }
                 else {
-                    echo "0 results";
+                    echo "</tr><br></table>";
+                    echo "<br><h2>You Have no Any Vacancy to Delete</h2>";
                 }
             ?>
+            
         </div>
         
         
