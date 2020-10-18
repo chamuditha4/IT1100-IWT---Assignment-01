@@ -54,9 +54,9 @@
         <div class="navvv">
             <h1> <a href="home.php"> Home </a> >Dashboard </h1>
         </div>
-        <form class="search" action="Search jobs.html">
+        <form class="search" action="search.php" method="get">
         <input type="text" placeholder="Search.." name="search">
-        <button type="submit" ><i class="fa fa-search"><a href="Search jobs.html"></a></a></i>Search</button>
+        <button type="submit" ><i class="fa fa-search"></i>Search</button>
         </form>
 
         <div class="prof">
