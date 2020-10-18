@@ -10,10 +10,14 @@
   $row = $result->fetch_assoc();
   $role = $row["role"];
   $uid = $row["id"];
-  $db->close();
+  
 //
 // Vacancies 
 
+    $Vsql = "SELECT * FROM vacancies WHERE uid='$uid'";
+    $resultV = $db->query($Vsql);
+    
+    
 //
   if ($role == 'JobSeeker'){
     header('location: JSdash.php');
@@ -63,7 +67,16 @@
         </div>
         
         <div class="prof" style="margin-left:25%; padding-bottom:10px; padding-top:10px;">
-        
+            <?php
+                if ($resultV->num_rows > 0) {
+                    while($rowV = $resultV->fetch_assoc()) {
+                        echo "id: " . $rowV["id"]."<br>";
+                    } 
+                }
+                else {
+                    echo "0 results";
+                }
+            ?>
         </div>
         
         
