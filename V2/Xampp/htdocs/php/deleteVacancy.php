@@ -90,7 +90,7 @@
                         echo "<td>" . $rowV["description"]."</td>";
                         echo "<td>" . $rowV["skills"]."</td>";
                         echo "<td>" . $rowV["payment"]." LKR</td>";
-                        echo "<td> <img src='../images/delete.png' </td></tr>";
+                        echo "<td> <input type='image' src='../images/delete.png' name='delete'/> </td></tr>";
                     } 
                 }
                 else {
