@@ -1,6 +1,7 @@
-<?php 
+<?php  
   session_start(); 
   include 'config.php';
+  include 'Vauth.php';
   $role="";
   $uname = $_SESSION['username'];
   $sql = "SELECT * FROM users WHERE username='$uname'";
@@ -57,7 +58,7 @@
         </div>
         
         <div class="prof" style="margin-left:25%; padding-bottom:10px; padding-top:10px;">
-            <form action="/action_page.php">
+        <form method="post" action="addVacancy.php">
                 <label for="title">Title</label><br>
                 <input type="text" id="title" name="title" value="" size="54"><br><br>
                 <label for="des">Description</label><br>
@@ -67,7 +68,7 @@
                 <label for="pyment">Payment for the Work</label><br>
                 <input type="number" id="pyment" name="pyment" min="1" style="width: 4em" value="1" onkeyup="calctotal()"><label> LKR</label><br><br>
                 <label>Total: </label><label id="total">1</label><label> LKR</label><br><br>
-                <input type="submit" value="Submit">
+                <input type="submit" value="ADD" name="AddVacancy">
             </form> 
         </div>
         
