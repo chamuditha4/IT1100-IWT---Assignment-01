@@ -22,11 +22,13 @@ body{
     font-family: 'Ubuntu', sans-serif;
     font-size:20px;
     color: beige;
+    margin-left: 3%;
 }
 .c{
     font-family: 'Ubuntu', sans-serif;
     font-size:20px;
     color: beige;
+    margin-left: 3%;
 }
 .box{
     background: #92909063;
@@ -35,4 +37,45 @@ body{
 button:hover {
     background-color: #e4aa3faf;
     color: rgb(253, 247, 252);
+}
+footer{
+    margin-top: 5%;
+    padding: 1%;
+    background-color: #000000b8;
+  }
+
+.contactuslogo{
+    display:block;
+    width:40px;
+    height: 40px;
+    display : inline-block;
+    margin-right: 2%;
+  
+}
+.social{
+    margin-left: 5%;
+    margin-right: 10%;
+  
+  }
+  .copy{
+    font-family: 'Ubuntu', sans-serif;
+    text-align:center;
+    color: #e2f3eebd;
+    font-size:13px;
+    margin-bottom: 1%;
+  }
+
+.back{
+    display: inline-block; 
+	width: 150px;
+	height: 40px;
+	background-color: #1eb10c;
+    text-decoration: none;
+    margin-bottom: 1%;
+    border: none;
+    color: white;
+    border-radius: 5px;
+	width: 150px;
+	height: 40px;
+    padding: 10px;
 }
