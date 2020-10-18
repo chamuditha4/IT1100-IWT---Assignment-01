@@ -90,7 +90,7 @@
                         echo "<td>" . $rowV["description"]."</td>";
                         echo "<td>" . $rowV["skills"]."</td>";
                         echo "<td>" . $rowV["payment"]." LKR</td>";
-                        echo "<td> <a href='delete.php?id=$rowV[id]'><img src='../images/delete.png'> </td></tr>";
+                        echo "<td> <a href='delete.php?id=$rowV[id]'><img src='../images/edit.png'> </td></tr>";
                     } 
                     echo "</table>";
                 }
