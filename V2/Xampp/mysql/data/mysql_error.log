@@ -1085,4 +1085,30 @@ InnoDB: using atomic writes.
 2020-10-18 16:52:14 0 [ERROR] InnoDB: Page [page id: space=1, page number=3] log sequence number 403989 is in the future! Current system log sequence number 364186.
 2020-10-18 16:52:14 0 [ERROR] InnoDB: Your database may be corrupt or you may have copied the InnoDB tablespace but not the InnoDB log files. Please refer to https://mariadb.com/kb/en/library/innodb-recovery-modes/ for information about forcing recovery.
 2020-10-18 16:52:14 0 [ERROR] InnoDB: Page [page id: space=2, page number=3] log sequence number 403953 is in the future! Current system log sequence number 364186.
-2020-10-18 16:52:14 0 [ERROR] InnoDB: Your database ma
+2020-10-18 16:52:14 0 [ERROR] InnoDB: Your database maInnoDB: using atomic writes.
+2020-10-18 17:01:46 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-10-18 17:01:46 0 [Note] InnoDB: Uses event mutexes
+2020-10-18 17:01:46 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-10-18 17:01:46 0 [Note] InnoDB: Number of pools: 1
+2020-10-18 17:01:46 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-10-18 17:01:46 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2020-10-18 17:01:46 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-10-18 17:01:46 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=368761
+2020-10-18 17:01:46 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2020-10-18 17:01:46 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-10-18 17:01:46 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\betterjobs\vacancies.ibd' OS error: 71
+2020-10-18 17:01:46 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-10-18 17:01:46 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-10-18 17:01:46 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``betterjobs`.`vacancies``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-10-18 17:01:46 0 [Warning] InnoDB: Ignoring tablespace for `betterjobs`.`vacancies` because it could not be opened.
+2020-10-18 17:01:46 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-10-18 17:01:46 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-10-18 17:01:46 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-10-18 17:01:46 0 [Note] InnoDB: Setting file 'C:\IT1100-IWT---Assignment-01\V2\Xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-10-18 17:01:46 0 [Note] InnoDB: File 'C:\IT1100-IWT---Assignment-01\V2\Xampp\mysql\data\ibtmp1' size is now 12 MB.
+2020-10-18 17:01:46 0 [Note] InnoDB: Waiting for purge to start
+2020-10-18 17:01:46 0 [Note] InnoDB: 10.4.14 started; log sequence number 368770; transaction id 593
+2020-10-18 17:01:46 0 [Note] InnoDB: Loading buffer pool(s) from C:\IT1100-IWT---Assignment-01\V2\Xampp\mysql\data\ib_buffer_pool
+2020-10-18 17:01:46 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-10-18 17:01:46 0 [Note] Server socket created on IP: '::'.
+2020-10-18 17:01:46 0 [Note] InnoDB: Buffer pool(s) load completed at 201018 17:01:46
