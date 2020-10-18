@@ -1,5 +1,6 @@
 <?php 
 include 'config.php';
+$id = "";
 $title = "";
 $descrption = "";
 $skill = "";
@@ -25,6 +26,19 @@ if (isset($_POST['AddVacancy'])) {
   }
 // END ADD Vacancies
 
-//
+// Start Edit Vacancy
+if (isset($_POST['UpdateVacancy'])) {
+    
+    $id = mysqli_real_escape_string($db, $_POST['id']);
+    $title = mysqli_real_escape_string($db, $_POST['title']);
+    $descrption = mysqli_real_escape_string($db, $_POST['des']);
+    $skill = mysqli_real_escape_string($db, $_POST['skills']);
+    $payment = mysqli_real_escape_string($db, $_POST['pyment']);
+
+        $query = "UPDATE vacancie SET title='$title', description='$descrption', payment='$payment', skills='$skill' WHERE id=$id";
+        mysqli_query($db, $query);
+        header('location: UpdateVacancy.php');
+  }
+// End Edit Vacancy
 
 ?>
