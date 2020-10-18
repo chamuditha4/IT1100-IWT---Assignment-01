@@ -9,7 +9,7 @@ $country = "";
 $email = "";
 $bio = "";
 $errors = array(); 
-
+// Start Registation
 if (isset($_POST['user_register'])) {
     // receive all input values from the form
     $bio = mysqli_real_escape_string($db, $_POST['bio']);
@@ -57,8 +57,8 @@ if (isset($_POST['user_register'])) {
         header('location: Edash.php');
     }
   }
-
-  // LOGIN USER
+// End Registation
+// Start Login
 if (isset($_POST['user_login'])) {
     $username = mysqli_real_escape_string($db, $_POST['uname']);
     $password = mysqli_real_escape_string($db, $_POST['pwd']);
@@ -82,6 +82,6 @@ if (isset($_POST['user_login'])) {
         }
     }
   }
-
+// End Login
 
 ?>

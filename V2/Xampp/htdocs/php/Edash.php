@@ -36,28 +36,14 @@
 <?php include 'header_logged.php';?>
 
 <div class="content">
-  	<!-- notification message -->
-  	<?php if (isset($_SESSION['success'])) : ?>
-      <div class="error success" >
-      	<h3>
-          <?php 
-          	echo $_SESSION['success']; 
-          	unset($_SESSION['success']);
-          ?>
-      	</h3>
-      </div>
-  	<?php endif ?>
 
-    <!-- logged in user information -->
+    
     <?php  if (isset($_SESSION['username'])) : ?>
     	<hr>
         <div class="navvv">
             <h1> <a href="home.php"> Home </a> >Dashboard </h1>
         </div>
-        <form class="search" action="Search jobs.html">
-        <input type="text" placeholder="Search.." name="search">
-        <button type="submit" ><i class="fa fa-search"><a href="Search jobs.html"></a></a></i>Search</button>
-        </form>
+        
 
         <div class="prof">
             <img src="../images/user.png" id="dp">
@@ -70,8 +56,8 @@
             </table>
         </div>
         <div class="tools">
-            <button type="button" onclick="Messageerr()">Delete vacancies</button><br>
-            <button type="button" onclick="Messageerr()">Add vacancies</button><br>
+            <button type="button" onclick="location.href='deleteVacancy.php'">Delete vacancies</button><br>
+            <button type="button" onclick="location.href='addVacancy.php'">Add vacancies</button><br>
             <button type="button" onclick="Messageerr()">Edit vacancies</button><br>
             <button type="button" onclick="Messageerr()">Approve CV</button><br>
             <button type="button" onclick="Messageerr()">Provide feedback on submited content</button><br>
