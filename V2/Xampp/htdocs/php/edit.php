@@ -1,10 +1,10 @@
 <?php
     include_once 'config.php';
-    $sql = "DELETE FROM vacancie WHERE id='" . $_GET["id"] . "'";
-    if (mysqli_query($db, $sql)) {
-        echo "Record deleted successfully";
+    $sql = "UPDATE persons SET email='peterparker_new@mail.com' WHERE id=1";
+    if(mysqli_query($db, $sql)){
+        echo "Records were updated successfully.";
     } else {
-        echo "Error deleting record: " . mysqli_error($conn);
+        echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
     }
     mysqli_close($db);
     header('location: deleteVacancy.php');
