@@ -100,7 +100,7 @@
                             echo "<td>" . $rowV["description"]."</td>";
                             echo "<td>" . $rowV["skills"]."</td>";
                             echo "<td>" . $rowV["payment"]." LKR</td>";
-                            echo "<td> <a href='delete.php?id=$rowV[id]'><img src='../images/submit.png'>";
+                            echo "<td> <a href='ooo.php?id=$rowV[id]'><img src='../images/submit.png'>";
                             
                         } 
                         echo "</table>";
