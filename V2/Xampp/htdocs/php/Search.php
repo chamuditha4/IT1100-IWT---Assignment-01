@@ -13,7 +13,7 @@
 
   // Vacancies 
 
-  $Vsql = "SELECT * FROM vacancie WHERE title LIKE '$Searchr' OR description LIKE '$Searchr' OR skills LIKE '$Searchr';";
+  $Vsql = "SELECT * FROM vacancie WHERE title LIKE '$Searchr%' OR description LIKE '$Searchr%' OR skills LIKE '$Searchr%';";
   $resultV = $db->query($Vsql);
 
   echo $id;
