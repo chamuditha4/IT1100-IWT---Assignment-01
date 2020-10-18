@@ -25,4 +25,6 @@ if (isset($_POST['AddVacancy'])) {
   }
 // END ADD Vacancies
 
+//
+
 ?>

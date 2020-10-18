@@ -90,14 +90,16 @@
                         echo "<td>" . $rowV["description"]."</td>";
                         echo "<td>" . $rowV["skills"]."</td>";
                         echo "<td>" . $rowV["payment"]." LKR</td>";
-                        echo "<td> <input type='image' src='../images/delete.png' name='delete'/> </td></tr>";
+                        echo "<td> <a href='delete.php?id=$rowV[id]'><img src='../images/delete.png'> </td></tr>";
                     } 
+                    echo "</table>";
                 }
                 else {
-                    echo "0 results";
+                    echo "</tr><br></table>";
+                    echo "<br><h2>You Have no Any Vacancy to Delete</h2>";
                 }
             ?>
-            </table>
+            
         </div>
         
         
