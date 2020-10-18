@@ -58,7 +58,6 @@
         <div class="tools">
             <button type="button" onclick="location.href='UpdateVacancy.php'">Update vacancies</button><br>
             <button type="button" onclick="location.href='addVacancy.php'">Add vacancies</button><br>
-            <button type="button" onclick="location.href='EditVacancy.php'">Edit vacancies</button><br>
             <button type="button" onclick="Messageerr()">Approve CV</button><br>
             <button type="button" onclick="Messageerr()">Provide feedback on submited content</button><br>
             <a href="pay.html"> <button type="button">Pay employee</button><br></a>
