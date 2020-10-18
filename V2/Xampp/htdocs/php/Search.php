@@ -13,7 +13,7 @@
 
   // Vacancies 
 
-  $Vsql = "SELECT * FROM vacancie WHERE title LIKE '$Searchr%' OR description LIKE '$Searchr%' OR skills LIKE '$Searchr%';";
+  $Vsql = "SELECT * FROM vacancie WHERE title LIKE '%$Searchr%' OR description LIKE '%$Searchr%' OR skills LIKE '%$Searchr%'";
   $resultV = $db->query($Vsql);
 
   echo $id;
@@ -100,8 +100,8 @@
                             echo "<td>" . $rowV["description"]."</td>";
                             echo "<td>" . $rowV["skills"]."</td>";
                             echo "<td>" . $rowV["payment"]." LKR</td>";
-                            echo "<td> <a href='delete.php?id=$rowV[id]'><img src='../images/delete.png'>&nbsp;&nbsp;";
-                            echo "<a href='EditVacancy.php?id=$rowV[id]'><img src='../images/edit.png'> </td></tr>";
+                            //echo "<td> <a href='delete.php?id=$rowV[id]'><img src='../images/delete.png'>&nbsp;&nbsp;";
+                            //echo "<a href='EditVacancy.php?id=$rowV[id]'><img src='../images/edit.png'> </td></tr>";
                         } 
                         echo "</table>";
                     }
