@@ -169,3 +169,14 @@
 [Sat Oct 17 21:06:49.826067 2020] [ssl:warn] [pid 6480:tid 568] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 [Sat Oct 17 21:06:49.884909 2020] [ssl:warn] [pid 6480:tid 568] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 [Sat Oct 17 21:06:49.924802 2020] [mpm_winnt:notice] [pid 6480:tid 568] AH00354: Child: Starting 150 worker threads.
+[Sun Oct 18 16:43:20.510042 2020] [ssl:warn] [pid 22792:tid 456] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Oct 18 16:43:20.584033 2020] [core:warn] [pid 22792:tid 456] AH00098: pid file C:/IT1100-IWT---Assignment-01/V2/Xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Oct 18 16:43:20.590992 2020] [ssl:warn] [pid 22792:tid 456] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Oct 18 16:43:20.615925 2020] [mpm_winnt:notice] [pid 22792:tid 456] AH00455: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.2.34 configured -- resuming normal operations
+[Sun Oct 18 16:43:20.615925 2020] [mpm_winnt:notice] [pid 22792:tid 456] AH00456: Apache Lounge VC15 Server built: Aug  4 2020 11:50:23
+[Sun Oct 18 16:43:20.615925 2020] [core:notice] [pid 22792:tid 456] AH00094: Command line: 'c:\\it1100-iwt---assignment-01\\v2\\xampp\\apache\\bin\\httpd.exe -d C:/IT1100-IWT---Assignment-01/V2/Xampp/apache'
+[Sun Oct 18 16:43:20.619919 2020] [mpm_winnt:notice] [pid 22792:tid 456] AH00418: Parent: Created child process 8356
+[Sun Oct 18 16:43:21.214434 2020] [ssl:warn] [pid 8356:tid 568] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Oct 18 16:43:21.267339 2020] [ssl:warn] [pid 8356:tid 568] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Oct 18 16:43:21.291276 2020] [mpm_winnt:notice] [pid 8356:tid 568] AH00354: Child: Starting 150 worker threads.
+[Sun Oct 18 16:57:40.851668 2020] [php7:notice] [pid 8356:tid 1816] [client ::1:56481] PHP Notice:  Trying to get property 'num_rows' of non-object in C:\\IT1100-IWT---Assignment-01\\V2\\Xampp\\htdocs\\php\\deleteVacancy.php on line 71, referer: http://localhost/php/Edash.php

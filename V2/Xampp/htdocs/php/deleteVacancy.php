@@ -14,7 +14,7 @@
 //
 // Vacancies 
 
-    $Vsql = "SELECT * FROM vacancies WHERE uid='$uid'";
+    $Vsql = "SELECT * FROM vacancie WHERE uid='$uid'";
     $resultV = $db->query($Vsql);
     
     
