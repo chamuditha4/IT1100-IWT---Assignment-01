@@ -15,7 +15,8 @@
     </div>
     <div class="hed"> 
         <img id="user" src="../images/user.png">
-        <h1 id="use"><?php echo $_SESSION['username']; ?></h1> 
+        <?php echo $printimg; ?>
+        <h1 id="use"><?php echo $_SESSION['username'];echo $printimg; ?></h1> 
         <button class="logout" onclick="location.href='Edash.php?logout=1'">Logout </a></button>
         
     </div>
