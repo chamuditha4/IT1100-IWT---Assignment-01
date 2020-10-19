@@ -7,5 +7,5 @@
         echo "Error deleting record: " . mysqli_error($conn);
     }
     mysqli_close($db);
-    header('location: UpdateVacancy.php');
+    header('location: ApproveCv.php');
 ?>
