@@ -41,4 +41,20 @@ if (isset($_POST['UpdateVacancy'])) {
   }
 // End Edit Vacancy
 
+// START Apply CV
+if (isset($_POST['ApplyCv'])) {
+    
+    
+    $title = mysqli_real_escape_string($db, $_POST['cvtitle']);
+    $descrption = mysqli_real_escape_string($db, $_POST['cvdes']);
+    $vid = mysqli_real_escape_string($db, $_POST['vid']);
+    
+
+        $query = "INSERT INTO cv (uid, title, description, vid) 
+                  VALUES('$uid', '$title', '$descrption', '$vid')";
+        mysqli_query($db, $query);
+        header('location: JSdash.php');
+  }
+// END Apply CV
+
 ?>
