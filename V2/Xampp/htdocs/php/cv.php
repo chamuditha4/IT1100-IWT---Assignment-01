@@ -82,8 +82,8 @@
                         echo "<tr><td>" . $rowCV["id"]."</td>";
                         echo "<td>" . $rowCV["title"]."</td>";
                         echo "<td>" . $rowCV["description"]."</td>";
-                        echo "<td> <a href='delete.php?id=$rowCV[id]'><img src='../images/delete.png'>&nbsp;&nbsp;";
-                        echo "<a href='EditVacancy.php?id=$rowCV[id]'><img src='../images/edit.png'> </td></tr>";
+                        echo "<td> <a href='approve.php?id=$rowCV[id]'><img src='../images/delete.png'>&nbsp;&nbsp;";
+                        echo "<a href='reject.php?id=$rowCV[id]'><img src='../images/edit.png'> </td></tr>";
                         
                     } 
                     echo "</table>";
