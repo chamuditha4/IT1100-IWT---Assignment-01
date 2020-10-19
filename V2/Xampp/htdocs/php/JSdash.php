@@ -60,7 +60,7 @@
         </form>
 
         <div class="prof">
-            <div style="vertical-align: right;">
+            
                 <?php
                     if (strlen($row["profilepicture"])!=0)
                         echo $printimg;
@@ -68,7 +68,7 @@
                         echo '<img src = "../images/user.png" style="width:150px;border-radius: 50%;vertical-align: middle;" >';
                     
                 ?>
-            </div>
+            
             
             <table>
                 <tr>  <td class="ptd">Name: </td> <td><?php echo $row["name"]; ?></td> </tr>
