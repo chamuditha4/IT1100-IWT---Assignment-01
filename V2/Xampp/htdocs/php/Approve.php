@@ -72,17 +72,12 @@
         </div>
         
         <div class="prof" style="margin-left:25%; padding-bottom:10px; padding-top:10px;">
-
-            <table>
-                <tr>
-                    <th>ID</th>
-                    <th>TITLE</th>
-                    <th>DESCRIPTION</th>
-                    <th>ACTION</th>
-                </tr>
-            
             <?php
                 if ($resultCV->num_rows > 0) {
+                    echo "<table><tr><th>CV ID</th>";
+                    echo "<th>CV TITLE</th>";
+                    echo "<th>CV DESCRIPTION</th>";
+                    echo "<th>ACTION</th></tr>";
                     while($rowCV = $resultCV->fetch_assoc()) {
                         echo "<tr><td>" . $rowCV["id"]."</td>";
                         echo "<td>" . $rowCV["title"]."</td>";
@@ -95,7 +90,7 @@
                 }
                 else {
                     echo "</tr><br></table>";
-                    echo "<br><h2>You Have no Any Vacancy to Delete</h2>";
+                    echo "<br><h2>You Have no CV to Approve</h2>";
                 }
             ?>
             
