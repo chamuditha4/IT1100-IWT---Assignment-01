@@ -79,7 +79,7 @@
     <?php  if (isset($_SESSION['username'])) : ?>
     	<hr>
         <div class="navvv">
-            <h1> <a href="home.php"> Home </a> > <a href="Edash.php"> Dashboard </a>> Search Results : <?php echo $Searchr ?> </h1>
+            <h1> <a href="home.php"> Home </a> > <a href="JSdash.php"> Dashboard </a>> Search Results : <?php echo $Searchr ?> </h1>
         </div>
         
 

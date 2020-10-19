@@ -215,3 +215,26 @@
 [Sun Oct 18 21:04:10.674239 2020] [ssl:warn] [pid 64044:tid 636] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 [Sun Oct 18 21:04:10.741061 2020] [ssl:warn] [pid 64044:tid 636] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 [Sun Oct 18 21:04:10.761007 2020] [mpm_winnt:notice] [pid 64044:tid 636] AH00354: Child: Starting 150 worker threads.
+[Mon Oct 19 18:30:56.654679 2020] [ssl:warn] [pid 19212:tid 556] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 19 18:30:56.714510 2020] [core:warn] [pid 19212:tid 556] AH00098: pid file C:/IT1100-IWT---Assignment-01/V2/Xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Oct 19 18:30:56.719500 2020] [ssl:warn] [pid 19212:tid 556] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 19 18:30:56.746426 2020] [mpm_winnt:notice] [pid 19212:tid 556] AH00455: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.2.34 configured -- resuming normal operations
+[Mon Oct 19 18:30:56.746426 2020] [mpm_winnt:notice] [pid 19212:tid 556] AH00456: Apache Lounge VC15 Server built: Aug  4 2020 11:50:23
+[Mon Oct 19 18:30:56.746426 2020] [core:notice] [pid 19212:tid 556] AH00094: Command line: 'c:\\it1100-iwt---assignment-01\\v2\\xampp\\apache\\bin\\httpd.exe -d C:/IT1100-IWT---Assignment-01/V2/Xampp/apache'
+[Mon Oct 19 18:30:56.749419 2020] [mpm_winnt:notice] [pid 19212:tid 556] AH00418: Parent: Created child process 5212
+[Mon Oct 19 18:30:57.175281 2020] [ssl:warn] [pid 5212:tid 600] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 19 18:30:57.236117 2020] [ssl:warn] [pid 5212:tid 600] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 19 18:30:57.266036 2020] [mpm_winnt:notice] [pid 5212:tid 600] AH00354: Child: Starting 150 worker threads.
+[Mon Oct 19 18:31:56.421902 2020] [php7:error] [pid 5212:tid 1820] [client ::1:64539] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in C:\\IT1100-IWT---Assignment-01\\V2\\Xampp\\htdocs\\php\\UserAccount.php on line 17
+[Mon Oct 19 18:32:20.883445 2020] [php7:error] [pid 5212:tid 1816] [client ::1:64540] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in C:\\IT1100-IWT---Assignment-01\\V2\\Xampp\\htdocs\\php\\UserAccount.php on line 18
+[Mon Oct 19 18:32:36.675682 2020] [php7:error] [pid 5212:tid 1820] [client ::1:64545] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in C:\\IT1100-IWT---Assignment-01\\V2\\Xampp\\htdocs\\php\\UserAccount.php on line 18
+[Mon Oct 19 18:32:37.965027 2020] [php7:error] [pid 5212:tid 1820] [client ::1:64545] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in C:\\IT1100-IWT---Assignment-01\\V2\\Xampp\\htdocs\\php\\UserAccount.php on line 18
+[Mon Oct 19 18:32:59.017872 2020] [php7:error] [pid 5212:tid 1816] [client ::1:64552] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in C:\\IT1100-IWT---Assignment-01\\V2\\Xampp\\htdocs\\php\\UserAccount.php:16\nStack trace:\n#0 {main}\n  thrown in C:\\IT1100-IWT---Assignment-01\\V2\\Xampp\\htdocs\\php\\UserAccount.php on line 16
+[Mon Oct 19 18:34:18.490361 2020] [php7:notice] [pid 5212:tid 1816] [client ::1:64578] PHP Notice:  Undefined index: FirstName in C:\\IT1100-IWT---Assignment-01\\V2\\Xampp\\htdocs\\php\\UserAccount.php on line 69
+[Mon Oct 19 19:24:24.345121 2020] [php7:notice] [pid 5212:tid 1816] [client ::1:64997] PHP Notice:  Undefined index: username in C:\\IT1100-IWT---Assignment-01\\V2\\Xampp\\htdocs\\php\\header_logged.php on line 18, referer: http://localhost/php/JSdash.php
+[Mon Oct 19 19:26:19.160948 2020] [php7:notice] [pid 5212:tid 1816] [client ::1:65037] PHP Notice:  Undefined index: username in C:\\IT1100-IWT---Assignment-01\\V2\\Xampp\\htdocs\\php\\header_logged.php on line 18, referer: http://localhost/php/Edash.php
+[Mon Oct 19 20:29:04.364162 2020] [php7:notice] [pid 5212:tid 1788] [client ::1:65340] PHP Notice:  Undefined index: id in C:\\IT1100-IWT---Assignment-01\\V2\\Xampp\\htdocs\\php\\apply.php on line 14, referer: http://localhost/php/apply.php?id=9
+[Mon Oct 19 20:29:20.862860 2020] [php7:notice] [pid 5212:tid 1816] [client ::1:65348] PHP Notice:  Undefined index: username in C:\\IT1100-IWT---Assignment-01\\V2\\Xampp\\htdocs\\php\\header_logged.php on line 18, referer: http://localhost/php/JSdash.php
+[Mon Oct 19 20:51:08.301366 2020] [php7:notice] [pid 5212:tid 1816] [client ::1:65472] PHP Notice:  Undefined index: username in C:\\IT1100-IWT---Assignment-01\\V2\\Xampp\\htdocs\\php\\header_logged.php on line 18, referer: http://localhost/php/Edash.php
+[Mon Oct 19 20:59:41.077039 2020] [php7:notice] [pid 5212:tid 1788] [client ::1:49165] PHP Notice:  Undefined index: Vid in C:\\IT1100-IWT---Assignment-01\\V2\\Xampp\\htdocs\\php\\work.php on line 17
+[Mon Oct 19 21:09:12.261659 2020] [php7:notice] [pid 5212:tid 1816] [client ::1:62407] PHP Notice:  Undefined variable: rowCV in C:\\IT1100-IWT---Assignment-01\\V2\\Xampp\\htdocs\\php\\work.php on line 77, referer: http://localhost/php/JSdash.php

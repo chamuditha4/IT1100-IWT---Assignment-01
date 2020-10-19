@@ -11,7 +11,7 @@ $row = $result->fetch_assoc();
 $role = $row["role"];
 //
 // Vacancies 
-    $Vid = $_GET["id"];
+    $id = $_GET["id"];
     $Vsql = "SELECT * FROM vacancie WHERE id='$Vid'";
     $resultV = $db->query($Vsql);
     $rowV = $resultV->fetch_assoc();
@@ -64,7 +64,7 @@ $role = $row["role"];
     <?php  if (isset($_SESSION['username'])) :?>
     	<hr>
         <div class="navvv">
-            <h1> <a href="home.php"> Home </a> > <a href="Edash.php"> Dashboard </a>> Apply Vacancy : <?php echo $rowV['title']; ?> </h1>
+            <h1> <a href="home.php"> Home </a> > <a href="JSdash.php"> Dashboard </a>> Apply Vacancy : <?php echo $rowV['title']; ?> </h1>
         </div>
         
         <div class="prof" style="margin-left:25%; padding-bottom:10px; padding-top:10px;">

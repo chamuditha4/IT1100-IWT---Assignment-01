@@ -12,6 +12,9 @@ $errors = array();
 // Start Registation
 if (isset($_POST['user_register'])) {
     // receive all input values from the form
+    $filename = $_FILES["myfile"]["name"]; 
+    $tempname = $_FILES["myfile"]["tmp_name"];     
+        $folder = "../images/users/".$filename; 
     $bio = mysqli_real_escape_string($db, $_POST['bio']);
     $role = mysqli_real_escape_string($db, $_POST['acctype']);
     $name = mysqli_real_escape_string($db, $_POST['name']);
@@ -49,8 +52,8 @@ if (isset($_POST['user_register'])) {
     if (count($errors) == 0) {
         $password = md5($password_1);//encrypt the password before saving in the database
   
-        $query = "INSERT INTO users (bio, role, country, name, username, email, password) 
-                  VALUES('$bio', '$role', '$country', '$name', '$username', '$email', '$password')";
+        $query = "INSERT INTO users (bio, role, country, name, username, email, password, profilepicture) 
+                  VALUES('$bio', '$role', '$country', '$name', '$username', '$email', '$password', '$filename')";
         mysqli_query($db, $query);
         $_SESSION['username'] = $username;
         $_SESSION['success'] = "You are now logged in";

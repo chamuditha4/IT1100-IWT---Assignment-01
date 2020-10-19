@@ -67,7 +67,7 @@
     <?php  if (isset($_SESSION['username'])) : ?>
     	<hr>
         <div class="navvv">
-            <h1> <a href="home.php"> Home </a> > <a href="Edash.php"> Dashboard </a>> My CV </h1>
+            <h1> <a href="home.php"> Home </a> > <a href="JSdash.php"> Dashboard </a>> My CV </h1>
         </div>
         
         <div class="prof" style="margin-left:25%; padding-bottom:10px; padding-top:10px;">
