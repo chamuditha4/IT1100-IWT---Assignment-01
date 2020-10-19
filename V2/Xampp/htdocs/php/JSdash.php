@@ -62,7 +62,7 @@
         <div class="prof">
             <div style="vertical-align: right;">
                 <?php
-                    if (is_null($row["profilepicture"]))
+                    if (strlen($row["profilepicture"])!=0)
                         echo $printimg;
                     else
                         echo '<img src = "../images/user.png" style="width:150px;border-radius: 50%;vertical-align: middle;" >';
