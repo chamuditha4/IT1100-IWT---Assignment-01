@@ -91,6 +91,12 @@
                             echo "<td>" . $rowV["description"]."</td>";
                             echo "<td style='color:yellow;'>" . $rowV["status"]."</td></tr>";
                             
+                        }elseif($status == 'completed'){
+                            echo "<tr><td>" . $rowV["id"]."</td>";
+                            echo "<td>" . $rowV["title"]."</td>";
+                            echo "<td>" . $rowV["description"]."</td>";
+                            echo "<td style='color:#f18973;'>" . $rowV["status"]."</td></tr>";
+                            
                         }elseif($status == 'approved'){
                             echo "<tr><td>" . $rowV["id"]."</td>";
                             echo "<td>" . $rowV["title"]."</td>";

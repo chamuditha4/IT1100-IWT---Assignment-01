@@ -11,8 +11,8 @@ $row = $result->fetch_assoc();
 $role = $row["role"];
 //
 // Vacancies 
-    $Vid = $_GET["id"];
-    $Vsql = "SELECT * FROM vacancie WHERE id='$Vid'";
+    $Cid = $_GET["id"];
+    $Vsql = "SELECT * FROM vacancie WHERE id='$Cid'";
     $resultV = $db->query($Vsql);
     $rowV = $resultV->fetch_assoc();
 //
@@ -37,7 +37,7 @@ $role = $row["role"];
 <!DOCTYPE html>
 <html>
 <head>
-	<title> Apply Vacancy : <?php echo $rowV['title']; ?> </title>
+	<title> Submit Work : <?php echo $rowV['title']; ?> </title>
     <style>
         table {
         font-family: arial, sans-serif;
@@ -64,17 +64,18 @@ $role = $row["role"];
     <?php  if (isset($_SESSION['username'])) :?>
     	<hr>
         <div class="navvv">
-            <h1> <a href="home.php"> Home </a> > <a href="JSdash.php"> Dashboard </a>> Apply Vacancy : <?php echo $rowV['title']; ?> </h1>
+            <h1> <a href="home.php"> Home </a> > <a href="JSdash.php"> Dashboard </a>> Submit Work : <?php echo $rowV['title']; ?> </h1>
         </div>
         
         <div class="prof" style="margin-left:25%; padding-bottom:10px; padding-top:10px;">
-            <form method="post" action="apply.php">
-                    <input type="hidden" id="id" name="vid" value="<?php echo $Vid; ?>">
-                    <label for="cvtitle">CV Title</label><br>
-                    <input type="text" id="cvtitle" name="cvtitle" value="" size="54"><br><br>
-                    <label for="cvdes">CV Description</label><br>
-                    <textarea id="cvdes" name="cvdes" rows="4" cols="50" ></textarea><br><br>
-                    <input type="submit" value="Apply" name="ApplyCv">
+            <form method="post" action="Submit.php">
+                    <input type="hidden" id="Uid" name="Uid" value="<?php echo $row["id"]; ?>">
+                    <input type="hidden" id="id" name="Cid" value="<?php echo $Cid; ?>">
+                    <label for="Wtitle">Work Title</label><br>
+                    <input type="text" id="Wtitle" name="Wtitle" value="" size="54"><br><br>
+                    <label for="Wdes">Work Description</label><br>
+                    <textarea id="Wdes" name="Wdes" rows="4" cols="50" ></textarea><br><br>
+                    <input type="submit" value="Submit" name="SubmitWork">
                 </form> 
         </div>
 

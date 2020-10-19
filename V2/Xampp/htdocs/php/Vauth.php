@@ -57,4 +57,22 @@ if (isset($_POST['ApplyCv'])) {
   }
 // END Apply CV
 
+// START Submit Work
+if (isset($_POST['SubmitWork'])) {
+    
+    
+    $title = mysqli_real_escape_string($db, $_POST['Wtitle']);
+    $descrption = mysqli_real_escape_string($db, $_POST['Wdes']);
+    $Cid = mysqli_real_escape_string($db, $_POST['Cid']);
+    $Uid = mysqli_real_escape_string($db, $_POST['Cid']);
+
+        $query = "INSERT INTO work (cid, uid, title, description, status) 
+                  VALUES('$Cid', '$Uid', '$title', '$descrption', 'pending')";
+        mysqli_query($db, $query);
+        $sql = "UPDATE cv SET status='completed' WHERE id='$Cid'";
+        mysqli_query($db, $sql);
+        header('location: work.php');
+  }
+// END Submit Work
+
 ?>

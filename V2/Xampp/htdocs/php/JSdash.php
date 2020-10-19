@@ -81,7 +81,7 @@
         <div class="seekerb">
             <a href="report.html"><button class="jsd_btn" >Report Employer / Job seeker</button></a><br>
             <button class="jsd_btn" onclick="location.href='MyCv.php'">Submitted CV's</button><br>
-            <button class="jsd_btn" onclick="location.href='work.php'">Completed Jobs</button><br>
+            <button class="jsd_btn" onclick="location.href='work.php'">Submit Completed Jobs</button><br>
             <button class="jsd_btn" onclick="Messageerr()">Submit finished Work</button>
         </div>
 </div>
