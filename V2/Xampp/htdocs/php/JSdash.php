@@ -54,9 +54,9 @@
         <div class="navvv">
             <h1> <a href="home.php"> Home </a> >Dashboard </h1>
         </div>
-        <form class="search" action="Search jobs.html">
+        <form class="search" action="search.php" method="get">
         <input type="text" placeholder="Search.." name="search">
-        <button type="submit" ><i class="fa fa-search"><a href="Search jobs.html"></a></a></i>Search</button>
+        <button type="submit" ><i class="fa fa-search"></i>Search</button>
         </form>
 
         <div class="prof">
@@ -71,7 +71,8 @@
         </div>
         <div class="seekerb">
             <a href="report.html"><button class="jsd_btn" >Report Employer / Job seeker</button></a><br>
-            <button class="jsd_btn" onclick="Messageerr()">Completed Jobs</button><br>
+            <button class="jsd_btn" onclick="location.href='MyCv.php'">Submitted CV's</button><br>
+            <button class="jsd_btn" onclick="location.href='work.php'">Completed Jobs</button><br>
             <button class="jsd_btn" onclick="Messageerr()">Submit finished Work</button>
         </div>
 </div>

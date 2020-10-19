@@ -72,18 +72,14 @@
         
         <div class="prof" style="margin-left:25%; padding-bottom:10px; padding-top:10px;">
 
-            <table>
-                <tr>
-                    <th>ID</th>
-                    <th>TITLE</th>
-                    <th>DESCRIPTION</th>
-                    <th>SKILLS REQUIRED</th>
-                    <th>PAYMENT</th>
-                    <th>ACTION</th>
-                </tr>
-            
             <?php
                 if ($resultV->num_rows > 0) {
+                    echo "<table><tr><th>ID</th>";
+                    echo "<th>TITLE</th>";
+                    echo "<th>DESCRIPTION</th>";
+                    echo "<th>SKILLS REQUIRED</th>";
+                    echo "<th>PAYMENT</th>";
+                    echo "<th>ACTION</th></tr>";
                     while($rowV = $resultV->fetch_assoc()) {
                         echo "<tr><td>" . $rowV["id"]."</td>";
                         echo "<td>" . $rowV["title"]."</td>";

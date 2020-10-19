@@ -7,7 +7,10 @@
   $result = $db->query($sql);
   $row = $result->fetch_assoc();
   $role = $row["role"];
+  
 
+  $printimg = '<img src = "data:image;base64,'.base64_encode($row["profilepicture"]).'" alt = "Latest" class = "latest_image" >';
+  echo $printimg ;
   if ($role == 'JobSeeker'){
     header('location: JSdash.php');
   }
@@ -46,7 +49,10 @@
         
 
         <div class="prof">
-            <img src="../images/user.png" id="dp">
+            <?php
+                
+                echo $printimg;
+            ?>
             <table>
                 <tr>  <td class="ptd">Name: </td> <td><?php echo $row["name"]; ?></td> </tr>
                 <tr>  <td class="ptd">BetterJobsID: </td> <td><?php echo $row["id"]; ?></td> </tr>
@@ -58,7 +64,7 @@
         <div class="tools">
             <button type="button" onclick="location.href='UpdateVacancy.php'">Update vacancies</button><br>
             <button type="button" onclick="location.href='addVacancy.php'">Add vacancies</button><br>
-            <button type="button" onclick="Messageerr()">Approve CV</button><br>
+            <button type="button" onclick="location.href='ApproveCv.php'">Approve CV</button><br>
             <button type="button" onclick="Messageerr()">Provide feedback on submited content</button><br>
             <a href="pay.html"> <button type="button">Pay employee</button><br></a>
             <a href="report.html"><button type="button">Report employer/job seeker</button><br></a>
