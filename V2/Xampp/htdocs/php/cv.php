@@ -77,14 +77,31 @@
                     echo "<table><tr><th>CV ID</th>";
                     echo "<th>CV TITLE</th>";
                     echo "<th>CV DESCRIPTION</th>";
+                    echo "<th>STATUS</th>";
                     echo "<th>ACTION</th></tr>";
                     while($rowCV = $resultCV->fetch_assoc()) {
-                        echo "<tr><td>" . $rowCV["id"]."</td>";
-                        echo "<td>" . $rowCV["title"]."</td>";
-                        echo "<td>" . $rowCV["description"]."</td>";
-                        echo "<td> <a href='approve.php?id=$rowCV[id]'><img src='../images/delete.png'>&nbsp;&nbsp;";
-                        echo "<a href='reject.php?id=$rowCV[id]'><img src='../images/edit.png'> </td></tr>";
-                        
+                        $status = $rowCV["status"];
+                        if ($status == 'rejected'){
+                            echo "<tr><td>" . $rowCV["id"]."</td>";
+                            echo "<td>" . $rowCV["title"]."</td>";
+                            echo "<td>" . $rowCV["description"]."</td>";
+                            echo "<td>" . $rowCV["status"]."</td>";
+                            echo "<td> <a href='approve.php?id=$rowCV[id]'><img src='../images/correct-symbol.png'></td></tr>";
+                        }elseif($status == 'pending'){
+                            echo "<tr><td>" . $rowCV["id"]."</td>";
+                            echo "<td>" . $rowCV["title"]."</td>";
+                            echo "<td>" . $rowCV["description"]."</td>";
+                            echo "<td>" . $rowCV["status"]."</td>";
+                            echo "<td> <a href='approve.php?id=$rowCV[id]'><img src='../images/correct-symbol.png'>&nbsp;&nbsp;";
+                            echo "<a href='reject.php?id=$rowCV[id]'><img src='../images/delete.png'> </td></tr>";
+                        }elseif($status == 'approved'){
+                            echo "<tr><td>" . $rowCV["id"]."</td>";
+                            echo "<td>" . $rowCV["title"]."</td>";
+                            echo "<td>" . $rowCV["description"]."</td>";
+                            echo "<td>" . $rowCV["status"]."</td>";
+                            echo "<td><a href='reject.php?id=$rowCV[id]'><img src='../images/delete.png'> </td></tr>";
+                        }
+                            
                     } 
                     echo "</table>";
                 }

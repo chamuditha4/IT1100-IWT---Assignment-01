@@ -50,8 +50,8 @@ if (isset($_POST['ApplyCv'])) {
     $vid = mysqli_real_escape_string($db, $_POST['vid']);
     
 
-        $query = "INSERT INTO cv (uid, title, description, vid) 
-                  VALUES('$uid', '$title', '$descrption', '$vid')";
+        $query = "INSERT INTO cv (uid, title, description, vid, status) 
+                  VALUES('$uid', '$title', '$descrption', '$vid', 'pending')";
         mysqli_query($db, $query);
         header('location: JSdash.php');
   }
