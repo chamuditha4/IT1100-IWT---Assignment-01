@@ -80,7 +80,7 @@
                     <th>SKILLS REQUIRED</th>
                     <th>PAYMENT</th>
                     <th>CV Count</th>
-                    <th>ACTION</th>
+                    
                 </tr>
             
             <?php
@@ -95,9 +95,7 @@
                         $count = "SELECT COUNT(vid) AS count FROM cv WHERE vid= '$Vid'";
                         $res = mysqli_query($db,$count);
                         $data=mysqli_fetch_assoc($res);
-                        echo "<td><a href=''>" .$data['count']. "</a></td>";
-                        echo "<td> <a href='delete.php?id=$rowV[id]'><img src='../images/delete.png'>&nbsp;&nbsp;";
-                        echo "<a href='EditVacancy.php?id=$rowV[id]'><img src='../images/edit.png'> </td></tr>";
+                        echo "<td><a href='Approve.php?Vid=$Vid'>" .$data['count']. "</a></td></tr>";
                     } 
                     echo "</table>";
                 }
