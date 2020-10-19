@@ -1,5 +1,13 @@
 #user{
-  width: 6%;
+  width: 150;
+  margin-bottom:3px;
+  margin-top:8px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+#user1{
+  width: 100;
   margin-bottom:3px;
   margin-top:8px;
   display: inline-block;

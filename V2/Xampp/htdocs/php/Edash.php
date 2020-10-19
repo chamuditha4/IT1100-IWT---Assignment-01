@@ -9,7 +9,7 @@
   $role = $row["role"];
   
 
-  $printimg = '<img src = "data:image;base64,'.base64_encode($row["profilepicture"]).'" style="width:150px; border-radius: 50%; vertical-align: middle;" >';
+  $printimg = '<img src = "data:image;base64,'.base64_encode($row["profilepicture"]).'" style="width:150px;" >';
 
   if ($role == 'JobSeeker'){
     header('location: JSdash.php');
@@ -53,7 +53,7 @@
                     if (strlen($row["profilepicture"])!=0)
                         echo $printimg;
                     else
-                        echo '<img src = "../images/user.png" style="width:150px;border-radius: 50%;vertical-align: middle;" >';
+                        echo '<img src = "../images/user.png" style="width:150px;" >';
                     
                 ?>
             

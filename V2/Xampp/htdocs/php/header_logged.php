@@ -14,9 +14,16 @@
       <h1 id="today"></h1>
     </div>
     <div class="hed"> 
-        <img id="user" src="../images/user.png">
-        <?php echo $printimg; ?>
-        <h1 id="use"><?php echo $_SESSION['username'];echo $printimg; ?></h1> 
+        <?php 
+            if (strlen($row["profilepicture"])!=0){
+                $printimgq = '<img src = "data:image;base64,'.base64_encode($row["profilepicture"]).'" id="user1" style="width:100px;border-radius: 50%;" >';
+                echo $printimgq;
+            }
+            else{
+                echo '<img src = "../images/user.png" id="user1" style="width:100px;" >';
+            }
+        ?>
+        <h1 id="use"><?php echo $_SESSION['username']; ?></h1> 
         <button class="logout" onclick="location.href='Edash.php?logout=1'">Logout </a></button>
         
     </div>
