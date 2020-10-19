@@ -89,7 +89,7 @@
                         $count = "SELECT COUNT(vid) AS count FROM cv WHERE vid= '$Vid'";
                         $res = mysqli_query($db,$count);
                         $data=mysqli_fetch_assoc($res);
-                        echo "<td><a href='Approve.php?Vid=$Vid'>" .$data['count']. "</a></td></tr>";
+                        echo "<td><a href='cv.php?Vid=$Vid'>" .$data['count']. "</a></td></tr>";
                     } 
                     echo "</table>";
                 }
