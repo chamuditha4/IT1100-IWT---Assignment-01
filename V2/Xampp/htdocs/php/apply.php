@@ -11,7 +11,7 @@ $row = $result->fetch_assoc();
 $role = $row["role"];
 //
 // Vacancies 
-    $id = $_GET["id"];
+    $Vid = $_GET["id"];
     $Vsql = "SELECT * FROM vacancie WHERE id='$Vid'";
     $resultV = $db->query($Vsql);
     $rowV = $resultV->fetch_assoc();
