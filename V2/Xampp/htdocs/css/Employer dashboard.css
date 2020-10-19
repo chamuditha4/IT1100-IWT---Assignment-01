@@ -78,12 +78,7 @@ a{
   color: white;
   text-decoration: none;
 }
-#user{
-  width: 6%;
-  margin-bottom:3px;
-  margin-top:8px;
-  display: inline-block;
-    }
+
     
     .logout a{
       color:#1eb10c;

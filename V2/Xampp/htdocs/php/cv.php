@@ -94,6 +94,12 @@
                             echo "<td style='color:yellow;'>" . $rowCV["status"]."</td>";
                             echo "<td> <a href='approve.php?id=$rowCV[id]'><img src='../images/correct-symbol.png'>&nbsp;&nbsp;";
                             echo "<a href='reject.php?id=$rowCV[id]'><img src='../images/delete.png'> </td></tr>";
+                        }elseif($status == 'completed'){
+                            echo "<tr><td>" . $rowCV["id"]."</td>";
+                            echo "<td>" . $rowCV["title"]."</td>";
+                            echo "<td>" . $rowCV["description"]."</td>";
+                            echo "<td style='color:#f18973;'>" . $rowCV["status"]."</td>";
+                            echo "<td></td></tr>";
                         }elseif($status == 'approved'){
                             echo "<tr><td>" . $rowCV["id"]."</td>";
                             echo "<td>" . $rowCV["title"]."</td>";
