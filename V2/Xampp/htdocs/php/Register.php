@@ -15,7 +15,7 @@
     <!-- End Header -->
 
     <div class="center">
-        <form method="post" action="Register.php">
+        <form method="post" action="Register.php" enctype="multipart/form-data">
             <label for="name">Name :</label><br>
             <input type="text" id="name" name="name" value="" required><br>
             <label for="uname">Username :</label><br>
@@ -283,7 +283,7 @@
             <label>Profile Picture</label><br>
             <div class="upload-btn-wrapper">
                 <button class="btn">Upload a file</button>
-                <input type="file" name="myfile" />
+                <input type="file" name="myfile" value=""/>
             </div><br><br>
             <label for="uname">Bio:</label><br>
             <textarea id="bio" name="bio" rows="4" cols="25"></textarea>
