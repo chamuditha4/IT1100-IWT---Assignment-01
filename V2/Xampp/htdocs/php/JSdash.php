@@ -7,7 +7,7 @@
   $result = $db->query($sql);
   $row = $result->fetch_assoc();
   $role = $row["role"];
-
+  $printimg = '<img src = "data:image;base64,'.base64_encode($row["profilepicture"]).'" style="width:150px;border-radius: 50%;vertical-align: middle;" >';
   if ($role == 'JobSeeker'){
     //header('location: login.php');
   }
@@ -60,7 +60,12 @@
         </form>
 
         <div class="prof">
-            <img src="../images/user.png" id="dp">
+            <div style="vertical-align: right;">
+                <?php
+                    echo $printimg;
+                ?>
+            </div>
+            
             <table>
                 <tr>  <td class="ptd">Name: </td> <td><?php echo $row["name"]; ?></td> </tr>
                 <tr>  <td class="ptd">BetterJobsID: </td> <td><?php echo $row["id"]; ?></td> </tr>

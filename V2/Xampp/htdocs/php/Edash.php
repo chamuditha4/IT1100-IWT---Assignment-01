@@ -9,8 +9,8 @@
   $role = $row["role"];
   
 
-  $printimg = '<img src = "data:image;base64,'.base64_encode($row["profilepicture"]).'" alt = "Latest" class = "latest_image" >';
-  echo $printimg ;
+  $printimg = '<img src = "data:image;base64,'.base64_encode($row["profilepicture"]).'" style="width:150px; border-radius: 50%; vertical-align: middle;" >';
+
   if ($role == 'JobSeeker'){
     header('location: JSdash.php');
   }
