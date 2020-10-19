@@ -85,20 +85,20 @@
                             echo "<tr><td>" . $rowCV["id"]."</td>";
                             echo "<td>" . $rowCV["title"]."</td>";
                             echo "<td>" . $rowCV["description"]."</td>";
-                            echo "<td>" . $rowCV["status"]."</td>";
+                            echo "<td style='color:red;'>" . $rowCV["status"]."</td>";
                             echo "<td> <a href='approve.php?id=$rowCV[id]'><img src='../images/correct-symbol.png'></td></tr>";
                         }elseif($status == 'pending'){
                             echo "<tr><td>" . $rowCV["id"]."</td>";
                             echo "<td>" . $rowCV["title"]."</td>";
                             echo "<td>" . $rowCV["description"]."</td>";
-                            echo "<td>" . $rowCV["status"]."</td>";
+                            echo "<td style='color:yellow;'>" . $rowCV["status"]."</td>";
                             echo "<td> <a href='approve.php?id=$rowCV[id]'><img src='../images/correct-symbol.png'>&nbsp;&nbsp;";
                             echo "<a href='reject.php?id=$rowCV[id]'><img src='../images/delete.png'> </td></tr>";
                         }elseif($status == 'approved'){
                             echo "<tr><td>" . $rowCV["id"]."</td>";
                             echo "<td>" . $rowCV["title"]."</td>";
                             echo "<td>" . $rowCV["description"]."</td>";
-                            echo "<td>" . $rowCV["status"]."</td>";
+                            echo "<td style='color:green;'>" . $rowCV["status"]."</td>";
                             echo "<td><a href='reject.php?id=$rowCV[id]'><img src='../images/delete.png'> </td></tr>";
                         }
                             
