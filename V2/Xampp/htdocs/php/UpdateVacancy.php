@@ -74,7 +74,8 @@
 
             <?php
                 if ($resultV->num_rows > 0) {
-                    echo "<table><tr><th>TITLE</th>";
+                    echo "<table><tr><th>ID</th>";
+                    echo "<th>TITLE</th>";
                     echo "<th>DESCRIPTION</th>";
                     echo "<th>SKILLS REQUIRED</th>";
                     echo "<th>PAYMENT</th>";
