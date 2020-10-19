@@ -14,9 +14,7 @@
       <h1 id="today"></h1>
     </div>
     <div class="hed"> 
-        <?php
-            include 'config.php';
-        ?>
+        <img id="user" src="../images/user.png">
         <h1 id="use"><?php echo $_SESSION['username']; ?></h1> 
         <button class="logout" onclick="location.href='Edash.php?logout=1'">Logout </a></button>
         
