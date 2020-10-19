@@ -50,12 +50,13 @@
 
         <div class="prof">
                 <?php
-                    if (strlen($row["profilepicture"]))
+                    if (strlen($row["profilepicture"])!=0)
                         echo $printimg;
                     else
                         echo '<img src = "../images/user.png" style="width:150px;border-radius: 50%;vertical-align: middle;" >';
                     
                 ?>
+            
             <table>
                 <tr>  <td class="ptd">Name: </td> <td><?php echo $row["name"]; ?></td> </tr>
                 <tr>  <td class="ptd">BetterJobsID: </td> <td><?php echo $row["id"]; ?></td> </tr>
