@@ -95,8 +95,8 @@
                                 echo "<td>" . $work["description"]."</td>";
                                 echo "<td>" . $work["status"]."</td>";
                                 echo "<td>" . $rowV["payment"]." LKR</td>";
-                                echo "<td><a href='EditVacancy.php?id=$rowV[id]'><img src='../images/money.png'> &nbsp;&nbsp;";
-                                echo "<a href='delete.php?id=$rowV[id]'><img src='../images/delete.png'> </td></tr>";
+                                echo "<td><a href='paid.php?id=$work[id]'><img src='../images/money.png'> &nbsp;&nbsp;";
+                                echo "<a href='p_reject.php?id=$work[id]'><img src='../images/delete.png'> </td></tr>";
                             }    
                         }
                     } 
