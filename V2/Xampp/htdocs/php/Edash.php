@@ -70,7 +70,7 @@
             <button type="button" onclick="location.href='addVacancy.php'">Add vacancies</button><br>
             <button type="button" onclick="location.href='ApproveCv.php'">Approve CV</button><br>
             <button type="button" onclick="Messageerr()">Provide feedback on submited content</button><br>
-            <a href="pay.html"> <button type="button">Pay employee</button><br></a>
+            <button type="button" onclick="location.href='Payment.php'">Pay employee</button><br>
             <a href="report.html"><button type="button">Report employer/job seeker</button><br></a>
             <button type="button" onclick="Messageerr()">View submited forms</button><br>
         </div> 
