@@ -287,7 +287,7 @@
             </div><br><br>
             <label for="uname">Bio:</label><br>
             <textarea id="bio" name="bio" rows="4" cols="25"></textarea>
-            <input type="submit" id="butto" name="user_register"  value="Submit" >
+            <input type="submit" id="butto" name="user_register"  value="Submit" onclick="Validate()">
         </form>
     </div>
 
