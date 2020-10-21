@@ -89,14 +89,31 @@
                             $work1 = "SELECT * FROM work WHERE cid= '$Cid'";
                             $res1 = mysqli_query($db,$work1);
                             while($work = $res1->fetch_assoc()) {
-                            
-                                echo "<tr><td>" . $work["id"]."</td>";
-                                echo "<td>" . $work["title"]."</td>";
-                                echo "<td>" . $work["description"]."</td>";
-                                echo "<td>" . $work["status"]."</td>";
-                                echo "<td>" . $rowV["payment"]." LKR</td>";
-                                echo "<td><a href='paid.php?id=$work[id]'><img src='../images/money.png'> &nbsp;&nbsp;";
-                                echo "<a href='p_reject.php?id=$work[id]'><img src='../images/delete.png'> </td></tr>";
+                                $status = $work["status"];
+                                if ($status == 'reject'){
+                                    echo "<tr><td>" . $work["id"]."</td>";
+                                    echo "<td>" . $work["title"]."</td>";
+                                    echo "<td>" . $work["description"]."</td>";
+                                    echo "<td>" . $work["status"]."</td>";
+                                    echo "<td>" . $rowV["payment"]." LKR</td>";
+                                    echo "<td><a href='paid.php?id=$work[id]'><img src='../images/money.png'> </td></tr>";
+                                    }elseif($status == 'paid'){
+                                        echo "<tr><td>" . $work["id"]."</td>";
+                                        echo "<td>" . $work["title"]."</td>";
+                                        echo "<td>" . $work["description"]."</td>";
+                                        echo "<td>" . $work["status"]."</td>";
+                                        echo "<td>" . $rowV["payment"]." LKR</td>";
+                                        echo "<td><a href='p_reject.php?id=$work[id]'><img src='../images/delete.png'></td></tr> ";
+                                    }elseif($status == 'pending'){
+                                        echo "<tr><td>" . $work["id"]."</td>";
+                                        echo "<td>" . $work["title"]."</td>";
+                                        echo "<td>" . $work["description"]."</td>";
+                                        echo "<td>" . $work["status"]."</td>";
+                                        echo "<td>" . $rowV["payment"]." LKR</td>";
+                                        echo "<td><a href='paid.php?id=$work[id]'><img src='../images/money.png'> ";
+                                        echo "<a href='p_reject.php?id=$work[id]'><img src='../images/delete.png'></td></tr> ";
+                                    }
+                                
                             }    
                         }
                     } 
