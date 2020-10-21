@@ -11,8 +11,8 @@
 
   $printimg = '<img src = "data:image;base64,'.base64_encode($row["profilepicture"]).'" style="width:150px;border-radius: 50%;"  >';
 
-  if ($role == 'JobSeeker'){
-    header('location: JSdash.php');
+  if ($role != 'admin'){
+    header('location: home.php');
   }
   else{
     //header('location: Edash.php');
