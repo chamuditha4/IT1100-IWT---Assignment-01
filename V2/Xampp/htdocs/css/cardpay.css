@@ -6,7 +6,7 @@ body{
     background-attachment: fixed;
 }
 .a{
-    background: #000000a2;
+    background: #00000063;
     padding-top:10px;
     padding-bottom:10px;
 }
@@ -17,14 +17,12 @@ body{
     text-align: center;
     margin-top: 1%;
     margin-bottom: 1%;
-    font-family: 'Ubuntu', sans-serif;
 }
 .b{
     font-family: 'Ubuntu', sans-serif;
     font-size:20px;
     color: beige;
     margin-left: 3%;
-    
 }
 .c{
     font-family: 'Ubuntu', sans-serif;
@@ -33,7 +31,7 @@ body{
     margin-left: 3%;
 }
 .box{
-    background: #92909018;
+    background: #92909063;
     
 }
 button:hover {
@@ -80,11 +78,4 @@ footer{
 	width: 150px;
 	height: 40px;
     padding: 10px;
-    margin-left: 3%;
-}
-#image{
-    margin-left: 3%;
-}
-.backg{
-    background: #1616164f;
 }
