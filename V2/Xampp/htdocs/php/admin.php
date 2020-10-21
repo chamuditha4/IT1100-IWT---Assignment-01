@@ -28,6 +28,23 @@
   	unset($_SESSION['username']);
   	header("location: Login.php");
   }
+
+    $sql = "SELECT count(*) as total from vacancie";
+    $v = mysqli_query($db, $sql);
+    $vcount = mysqli_fetch_assoc($v)['total'];
+
+    $sql = "SELECT count(*) as total from work";
+    $work = mysqli_query($db, $sql);
+    $wcount = mysqli_fetch_assoc($work)['total'];
+
+    $sql = "SELECT count(*) as total from cv";
+    $cv = mysqli_query($db, $sql);
+    $cvcount = mysqli_fetch_assoc($cv)['total'];
+
+    $sql = "SELECT count(*) as total from users";
+    $users = mysqli_query($db, $sql);
+    $count = mysqli_fetch_assoc($users)['total'];
+    
 ?>
 <!DOCTYPE html>
 <html>
@@ -48,32 +65,20 @@
         </div>
         
 
-        <div class="prof">
-                <?php
-                    if (strlen($row["profilepicture"])!=0)
-                        echo $printimg;
-                    else
-                        echo '<img src = "../images/user.png" style="width:150px;" >';
-                    
-                ?>
+        <div style="margin-left:30%; background-color:#ffccff; margin-top:5%; margin-right:30%; text-align:center;">
+                
+            
             
             <table>
-                <tr>  <td class="ptd">Name: </td> <td><?php echo $row["name"]; ?></td> </tr>
-                <tr>  <td class="ptd">BetterJobsID: </td> <td><?php echo $row["id"]; ?></td> </tr>
-                <tr>  <td class="ptd">Email: </td> <td><?php echo $row["email"]; ?></td> </tr>
-                <tr>  <td class="ptd">Country: </td> <td><?php echo $row["country"]; ?></td> </tr>
-                <tr>  <td class="ptd">Bio: </td> <td><?php echo $row["Bio"]; ?></td> </tr>
+                <tr>  <td class="ptd">User Count: </td> <td><?php echo $count; ?></td> </tr>
+                <tr>  <td class="ptd">Vacancy Count: </td> <td><?php echo $vcount; ?></td> </tr>
+                <tr>  <td class="ptd">Submitted Work Count: </td> <td><?php echo $wcount; ?></td> </tr>
+                <tr>  <td class="ptd">Cv Count: </td> <td><?php echo $cvcount; ?></td> </tr>
             </table>
         </div>
-        <div class="tools">
-            <button type="button" onclick="location.href='UpdateVacancy.php'">Update vacancies</button><br>
-            <button type="button" onclick="location.href='addVacancy.php'">Add vacancies</button><br>
-            <button type="button" onclick="location.href='ApproveCv.php'">Approve CV</button><br>
-            <button type="button" onclick="Messageerr()">Provide feedback on submited content</button><br>
-            <button type="button" onclick="location.href='Payment.php'">Pay employee</button><br>
-            <a href="report.html"><button type="button">Report employer/job seeker</button><br></a>
-            <button type="button" onclick="Messageerr()">View submited forms</button><br>
-        </div> 
+        
+            
+
 </div>
         <?php
         
