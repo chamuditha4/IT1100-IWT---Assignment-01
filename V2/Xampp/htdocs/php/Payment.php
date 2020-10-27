@@ -70,7 +70,7 @@
             <h1> <a href="home.php"> Home </a> > <a href="Edash.php"> Dashboard </a>> Pay Employee </h1>
         </div>
         
-        <div class="prof" style="width:80%; margin-left:5%; padding-bottom:10px; padding-top:10px;">
+        <div class="prof" style="margin-left:10%; width:80%; padding-bottom:10px; padding-top:10px;">
 
             <?php
                 if ($resultV->num_rows > 0) {

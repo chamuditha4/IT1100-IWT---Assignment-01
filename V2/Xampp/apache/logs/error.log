@@ -474,3 +474,26 @@
 [Tue Oct 20 13:02:50.007742 2020] [php7:notice] [pid 18852:tid 1812] [client ::1:62906] PHP Notice:  Undefined index: skills in C:\\IT1100-IWT---Assignment-01\\V2\\Xampp\\htdocs\\php\\Payment.php on line 91
 [Tue Oct 20 13:20:19.129204 2020] [php7:error] [pid 18852:tid 1824] [client ::1:63087] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\\IT1100-IWT---Assignment-01\\V2\\Xampp\\htdocs\\php\\Payment.php on line 83
 [Tue Oct 20 13:35:05.877422 2020] [php7:error] [pid 18852:tid 1816] [client ::1:60619] PHP Parse error:  syntax error, unexpected '"', expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in C:\\IT1100-IWT---Assignment-01\\V2\\Xampp\\htdocs\\php\\Payment.php on line 85
+[Tue Oct 27 20:53:25.242963 2020] [ssl:warn] [pid 13212:tid 600] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Oct 27 20:53:25.318276 2020] [core:warn] [pid 13212:tid 600] AH00098: pid file C:/IT1100-IWT---Assignment-01/V2/Xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Oct 27 20:53:25.330029 2020] [ssl:warn] [pid 13212:tid 600] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Oct 27 20:53:25.793919 2020] [mpm_winnt:notice] [pid 13212:tid 600] AH00455: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.2.34 configured -- resuming normal operations
+[Tue Oct 27 20:53:25.793919 2020] [mpm_winnt:notice] [pid 13212:tid 600] AH00456: Apache Lounge VC15 Server built: Aug  4 2020 11:50:23
+[Tue Oct 27 20:53:25.793919 2020] [core:notice] [pid 13212:tid 600] AH00094: Command line: 'c:\\it1100-iwt---assignment-01\\v2\\xampp\\apache\\bin\\httpd.exe -d C:/IT1100-IWT---Assignment-01/V2/Xampp/apache'
+[Tue Oct 27 20:53:25.797874 2020] [mpm_winnt:notice] [pid 13212:tid 600] AH00418: Parent: Created child process 8772
+[Tue Oct 27 20:53:26.388721 2020] [ssl:warn] [pid 8772:tid 568] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Oct 27 20:53:26.450573 2020] [ssl:warn] [pid 8772:tid 568] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Oct 27 20:53:26.489870 2020] [mpm_winnt:notice] [pid 8772:tid 568] AH00354: Child: Starting 150 worker threads.
+[Tue Oct 27 20:54:21.676458 2020] [ssl:warn] [pid 3028:tid 452] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Oct 27 20:54:21.742566 2020] [core:warn] [pid 3028:tid 452] AH00098: pid file C:/IT1100-IWT---Assignment-01/V2/Xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Oct 27 20:54:21.751625 2020] [ssl:warn] [pid 3028:tid 452] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Oct 27 20:54:21.788786 2020] [mpm_winnt:notice] [pid 3028:tid 452] AH00455: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.2.34 configured -- resuming normal operations
+[Tue Oct 27 20:54:21.789647 2020] [mpm_winnt:notice] [pid 3028:tid 452] AH00456: Apache Lounge VC15 Server built: Aug  4 2020 11:50:23
+[Tue Oct 27 20:54:21.789647 2020] [core:notice] [pid 3028:tid 452] AH00094: Command line: 'c:\\it1100-iwt---assignment-01\\v2\\xampp\\apache\\bin\\httpd.exe -d C:/IT1100-IWT---Assignment-01/V2/Xampp/apache'
+[Tue Oct 27 20:54:21.792640 2020] [mpm_winnt:notice] [pid 3028:tid 452] AH00418: Parent: Created child process 12704
+[Tue Oct 27 20:54:22.594479 2020] [ssl:warn] [pid 12704:tid 544] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Oct 27 20:54:22.667939 2020] [ssl:warn] [pid 12704:tid 544] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Oct 27 20:54:22.714846 2020] [mpm_winnt:notice] [pid 12704:tid 544] AH00354: Child: Starting 150 worker threads.
+[Tue Oct 27 22:21:30.698787 2020] [php7:notice] [pid 12704:tid 1800] [client ::1:2827] PHP Notice:  Undefined index: username in C:\\IT1100-IWT---Assignment-01\\V2\\Xampp\\htdocs\\php\\header_logged.php on line 26, referer: https://localhost/php/JSdash.php
+[Tue Oct 27 22:22:08.229860 2020] [php7:notice] [pid 12704:tid 1800] [client ::1:2888] PHP Notice:  Undefined index: username in C:\\IT1100-IWT---Assignment-01\\V2\\Xampp\\htdocs\\php\\header_logged.php on line 26, referer: https://localhost/php/Edash.php
+[Tue Oct 27 22:22:25.035346 2020] [php7:notice] [pid 12704:tid 1788] [client ::1:2926] PHP Notice:  Undefined index: username in C:\\IT1100-IWT---Assignment-01\\V2\\Xampp\\htdocs\\php\\header_logged.php on line 26, referer: https://localhost/php/work.php

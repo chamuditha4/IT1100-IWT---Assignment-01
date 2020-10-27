@@ -63,3 +63,45 @@
 10:05:34 PM  [main] 	Deinitializing Modules
 10:05:34 PM  [main] 	Deinitializing Control Panel
 
+8:53:03 PM  [main] 	Initializing Control Panel
+8:53:03 PM  [main] 	Windows Version:  Enterprise  64-bit
+8:53:03 PM  [main] 	XAMPP Version: 7.2.34
+8:53:03 PM  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+8:53:03 PM  [main] 	You are not running with administrator rights! This will work for
+8:53:03 PM  [main] 	most application stuff but whenever you do something with services
+8:53:03 PM  [main] 	there will be a security dialogue or things will break! So think 
+8:53:03 PM  [main] 	about running this application with administrator rights!
+8:53:03 PM  [main] 	XAMPP Installation Directory: "c:\it1100-iwt---assignment-01\v2\xampp\"
+8:53:03 PM  [main] 	Checking for prerequisites
+8:53:09 PM  [main] 	All prerequisites found
+8:53:09 PM  [main] 	Initializing Modules
+8:53:10 PM  [mysql] 	Problem detected!
+8:53:10 PM  [mysql] 	Port 3306 in use by "Unable to open process"!
+8:53:10 PM  [mysql] 	MySQL WILL NOT start without the configured ports free!
+8:53:10 PM  [mysql] 	You need to uninstall/disable/reconfigure the blocking application
+8:53:10 PM  [mysql] 	or reconfigure MySQL and the Control Panel to listen on a different port
+8:53:10 PM  [main] 	Starting Check-Timer
+8:53:10 PM  [main] 	Control Panel Ready
+8:53:23 PM  [Apache] 	Attempting to start Apache app...
+8:53:23 PM  [Apache] 	Status change detected: running
+8:53:24 PM  [mysql] 	Problem detected!
+8:53:24 PM  [mysql] 	Port 3306 in use by "Unable to open process"!
+8:53:24 PM  [mysql] 	MySQL WILL NOT start without the configured ports free!
+8:53:24 PM  [mysql] 	You need to uninstall/disable/reconfigure the blocking application
+8:53:24 PM  [mysql] 	or reconfigure MySQL and the Control Panel to listen on a different port
+8:53:24 PM  [mysql] 	Attempting to start MySQL app...
+8:53:25 PM  [mysql] 	Status change detected: running
+8:53:27 PM  [mysql] 	Status change detected: stopped
+8:53:27 PM  [mysql] 	Error: MySQL shutdown unexpectedly.
+8:53:27 PM  [mysql] 	This may be due to a blocked port, missing dependencies, 
+8:53:27 PM  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+8:53:27 PM  [mysql] 	Press the Logs button to view error logs and check
+8:53:27 PM  [mysql] 	the Windows Event Viewer for more clues
+8:53:27 PM  [mysql] 	If you need more help, copy and post this
+8:53:27 PM  [mysql] 	entire log window on the forums
+8:53:42 PM  [Apache] 	Attempting to stop Apache (PID: 13212)
+8:53:42 PM  [Apache] 	Attempting to stop Apache (PID: 8772)
+8:53:42 PM  [Apache] 	Status change detected: stopped
+8:53:45 PM  [main] 	Deinitializing Modules
+8:53:45 PM  [main] 	Deinitializing Control Panel
+

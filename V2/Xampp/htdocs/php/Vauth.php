@@ -64,7 +64,7 @@ if (isset($_POST['SubmitWork'])) {
     $title = mysqli_real_escape_string($db, $_POST['Wtitle']);
     $descrption = mysqli_real_escape_string($db, $_POST['Wdes']);
     $Cid = mysqli_real_escape_string($db, $_POST['Cid']);
-    $Uid = mysqli_real_escape_string($db, $_POST['Cid']);
+    $Uid = mysqli_real_escape_string($db, $_POST['Uid']);
 
         $query = "INSERT INTO work (cid, uid, title, description, status) 
                   VALUES('$Cid', '$Uid', '$title', '$descrption', 'pending')";

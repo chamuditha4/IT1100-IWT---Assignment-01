@@ -9,7 +9,7 @@ $role = "";
 $country = "";
 $email = "";
 $bio = "";
-$err = array(); 
+$err = array();
 // Start Registation
 if (isset($_POST['user_register'])) {
   if (is_uploaded_file($_FILES['myfile']['tmp_name'])) {
